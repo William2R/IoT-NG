@@ -558,7 +558,7 @@ definitions:
   # Metadata ===================================================================
 
   PROJECT_NAME: IoT NG
-  BOARD_NAME: IndustrialSense
+  BOARD_NAME: IndistrialSense
 
   COMPANY: Narval Inc.
   DESIGNER: William Regalado
