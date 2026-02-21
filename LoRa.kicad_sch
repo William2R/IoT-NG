@@ -5,7 +5,7 @@
 	(uuid "ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a")
 	(paper "A4")
 	(title_block
-		(title "LORA")
+		(title "LoRa")
 		(date "2025-01-12")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
@@ -900,7 +900,7 @@
 	)
 	(text_box "[${#}] ${TITLE}"
 		(exclude_from_sim no)
-		(at 115.57 15.24 0)
+		(at 110.49 19.05 0)
 		(size 72.39 12.7)
 		(margins 4.4999 4.4999 4.4999 4.4999)
 		(stroke
@@ -921,10 +921,10 @@
 		)
 		(uuid "b2c13488-4f2f-433b-bdc6-d210d1646aca")
 	)
-	(text_box "21dBm LoRa Module\n"
+	(text_box "21dBm LORA MODULE\n"
 		(exclude_from_sim no)
-		(at 100.965 116.205 0)
-		(size 45.72 7.62)
+		(at 62.23 116.84 0)
+		(size 120.015 7.62)
 		(margins 1.9049 1.9049 1.9049 1.9049)
 		(stroke
 			(width -0.0001)
@@ -944,6 +944,30 @@
 			(justify bottom)
 		)
 		(uuid "dc8a1dde-a6bc-4f58-b9d4-72ad8d6821ec")
+	)
+	(text_box "INTERFACES\n"
+		(exclude_from_sim no)
+		(at 193.04 116.84 0)
+		(size 48.895 7.62)
+		(margins 1.9049 1.9049 1.9049 1.9049)
+		(stroke
+			(width -0.0001)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(color 162 22 34 1)
+			)
+			(justify bottom)
+		)
+		(uuid "ed3a24c5-5ebe-454e-bb7b-e361bf6b4885")
 	)
 	(junction
 		(at 101.6 80.01)

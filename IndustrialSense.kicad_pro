@@ -1016,19 +1016,23 @@
     ],
     [
       "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "Peripherals"
+      "SD CARD"
+    ],
+    [
+      "b3de0b29-7133-4493-9e0a-b16134e0b106",
+      "RS485"
     ],
     [
       "a05720f2-a431-4e27-8c6f-664c8aa917f0",
       "LoRa"
     ],
     [
-      "4493b021-2656-4298-a896-505c6b444c3a",
-      "HUB"
-    ],
-    [
       "5ac2d668-0304-4bbe-8771-56c1c044638f",
       "External Connectors"
+    ],
+    [
+      "4493b021-2656-4298-a896-505c6b444c3a",
+      "HUB"
     ],
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
@@ -1037,7 +1041,7 @@
   ],
   "text_variables": {
     "ASSEMBLY_NOTES": "",
-    "BOARD_NAME": "IndistrialSense",
+    "BOARD_NAME": "IndustrialSense",
     "COMPANY": "Narval Inc.",
     "DESIGNER": "William Regalado",
     "FABRICATION_NOTES": "",
@@ -1059,8 +1063,8 @@
     "RELEASE_TITLE_UNRELEASED": "Version Unreleased not found.",
     "REVISION": "+ (Unreleased)",
     "SHEET_NAME_1": "Cover Page",
-    "SHEET_NAME_10": "Revision History",
-    "SHEET_NAME_11": "......................................",
+    "SHEET_NAME_10": "HUB",
+    "SHEET_NAME_11": "Revision History",
     "SHEET_NAME_12": "......................................",
     "SHEET_NAME_13": "......................................",
     "SHEET_NAME_14": "......................................",
@@ -1094,9 +1098,9 @@
     "SHEET_NAME_4": "Power Management",
     "SHEET_NAME_40": "......................................",
     "SHEET_NAME_5": "MCU",
-    "SHEET_NAME_6": "Peripherals",
-    "SHEET_NAME_7": "LoRa",
-    "SHEET_NAME_8": "HUB",
+    "SHEET_NAME_6": "SD Card",
+    "SHEET_NAME_7": "RS485",
+    "SHEET_NAME_8": "LoRa",
     "SHEET_NAME_9": "External Connectors",
     "VARIANT": "DRAFT"
   }
