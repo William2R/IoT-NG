@@ -507,35 +507,16 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2032,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "CAN Bus",
+        "name": "BATTERY",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 14,
+        "schematic_color": "rgb(255, 0, 171)",
         "track_width": 0.2,
-        "via_diameter": 0.55,
-        "via_drill": 0.25,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Chassis",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
-        "schematic_color": "rgb(139, 103, 213)",
-        "track_width": 0.2,
-        "via_diameter": 0.55,
+        "via_diameter": 0.6,
         "via_drill": 0.25,
         "wire_width": 24
       },
@@ -543,14 +524,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 2,
+        "priority": 7,
         "schematic_color": "rgb(0, 0, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -559,35 +539,60 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "High Power",
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(68, 192, 255)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "I2C",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 3,
-        "schematic_color": "rgb(177, 11, 198)",
-        "track_width": 0.2,
-        "via_diameter": 0.7,
-        "via_drill": 0.3,
-        "wire_width": 24
+        "schematic_color": "rgb(194, 0, 194)",
+        "wire_width": 6
       },
       {
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Kelvin Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 4,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "LORA",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgb(0, 132, 0)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "LTE",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgb(139, 103, 213)",
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
@@ -597,15 +602,14 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power 12V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 5,
-        "schematic_color": "rgb(255, 0, 171)",
+        "priority": 10,
+        "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
@@ -615,14 +619,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Power 3V3",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 6,
+        "priority": 11,
         "schematic_color": "rgb(220, 142, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -632,15 +635,49 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
+        "diff_pair_gap": 0.28,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RS485",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgb(72, 72, 72)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "SPI",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgb(0, 132, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgb(0, 0, 132)",
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power 5V",
+        "name": "VMAIN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 7,
+        "priority": 12,
         "schematic_color": "rgb(212, 0, 32)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -651,14 +688,13 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power A3V3",
+        "name": "VSUN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 8,
+        "priority": 13,
         "schematic_color": "rgb(162, 155, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -668,20 +704,19 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.28,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2032,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "RS422 Diff Pair",
+        "name": "V_IN",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 8,
+        "schematic_color": "rgb(177, 11, 198)",
         "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.25,
-        "wire_width": 6
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 24
       }
     ],
     "meta": {
@@ -691,31 +726,31 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "RS422 Diff Pair",
+        "netclass": "BATTERY",
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_R+"
       },
       {
-        "netclass": "RS422 Diff Pair",
+        "netclass": "BATTERY",
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_R-"
       },
       {
-        "netclass": "RS422 Diff Pair",
+        "netclass": "BATTERY",
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_D-"
       },
       {
-        "netclass": "RS422 Diff Pair",
+        "netclass": "BATTERY",
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_D+"
       },
       {
-        "netclass": "Chassis",
+        "netclass": "LTE",
         "pattern": "CHASSIS"
       },
       {
-        "netclass": "CAN Bus",
+        "netclass": "RS485",
         "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_P"
       },
       {
-        "netclass": "CAN Bus",
+        "netclass": "RS485",
         "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_N"
       },
       {
@@ -743,31 +778,31 @@
         "pattern": "/Project Architecture/Motor Control - Top Level/SC_N"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHA"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHC"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "+VBAT"
       },
       {
@@ -775,27 +810,27 @@
         "pattern": "GND"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Power - Generation/VIN_5V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Power - Generation/VIN_12V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Power - Generation/F_VBAT_12V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Power - Generation/F_VBAT_5V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_5V"
       },
       {
-        "netclass": "High Power",
+        "netclass": "V_IN",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_12V"
       },
       {
@@ -815,19 +850,19 @@
         "pattern": "/Project Architecture/Power - Generation/SW_3V3"
       },
       {
-        "netclass": "Power 5V",
+        "netclass": "VMAIN",
         "pattern": "+5V"
       },
       {
-        "netclass": "Power 5V",
+        "netclass": "VMAIN",
         "pattern": "/Project Architecture/Power - Generation/SW_5V"
       },
       {
-        "netclass": "Power A3V3",
+        "netclass": "VSUN",
         "pattern": "+A3V3"
       },
       {
-        "netclass": "Power A3V3",
+        "netclass": "VSUN",
         "pattern": "/Project Architecture/MCU - Power/F_A3V3"
       },
       {
@@ -843,8 +878,64 @@
         "pattern": "/Project Architecture/Interface - Fan Control/FAN_SW"
       },
       {
-        "netclass": "Power 5V",
+        "netclass": "VMAIN",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_3V3"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/Project Architecture/*/*USB*"
+      },
+      {
+        "netclass": "I2C",
+        "pattern": "/Project Architecture/*/*I2C*"
+      },
+      {
+        "netclass": "LORA",
+        "pattern": "/Project Architecture/*/*RA*"
+      },
+      {
+        "netclass": "SPI",
+        "pattern": "/Project Architecture/*/*SPI*"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "3V3_MCU"
+      },
+      {
+        "netclass": "Power 12V",
+        "pattern": "VBUS"
+      },
+      {
+        "netclass": "VMAIN",
+        "pattern": "V_MAIN"
+      },
+      {
+        "netclass": "VSUN",
+        "pattern": "VSUN"
+      },
+      {
+        "netclass": "V_IN",
+        "pattern": "V_IN"
+      },
+      {
+        "netclass": "BATTERY",
+        "pattern": "V_BAT"
+      },
+      {
+        "netclass": "RS485",
+        "pattern": "/Project Architecture/*/*RS485_*"
+      },
+      {
+        "netclass": "LTE",
+        "pattern": "/Project Architecture/*/*LTE_*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/Project Architecture/*/*PWR*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/Project Architecture/*/*GPIO*"
       }
     ]
   },
@@ -1041,12 +1132,12 @@
   ],
   "text_variables": {
     "ASSEMBLY_NOTES": "",
-    "BOARD_NAME": "IndistrialSense",
+    "BOARD_NAME": "IndustrialSense",
     "COMPANY": "Narval Inc.",
     "DESIGNER": "William Regalado",
     "FABRICATION_NOTES": "",
     "GIT_HASH_PCB": "3f373dc",
-    "GIT_HASH_SCH": "4d6cfa1",
+    "GIT_HASH_SCH": "da422f0",
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",
     "PROJECT_NAME": "IoT NG",
     "RELEASE_BODY_1.0.0": "",
@@ -1098,7 +1189,7 @@
     "SHEET_NAME_4": "Power Management",
     "SHEET_NAME_40": "......................................",
     "SHEET_NAME_5": "MCU",
-    "SHEET_NAME_6": "SD CARD",
+    "SHEET_NAME_6": "SD Card",
     "SHEET_NAME_7": "RS485",
     "SHEET_NAME_8": "LoRa",
     "SHEET_NAME_9": "External Connectors",

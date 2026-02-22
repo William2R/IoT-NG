@@ -10032,16 +10032,6 @@
 		)
 		(uuid "686509bf-2cae-463d-98b5-7d833463985a")
 	)
-	(label "USBCC2"
-		(at 74.93 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7731ad12-1cc0-47f2-862a-bd7a2e332aff")
-	)
 	(label "I2C_SDA"
 		(at 127 264.16 180)
 		(effects
@@ -10071,16 +10061,6 @@
 			(justify left bottom)
 		)
 		(uuid "8abad56c-5c45-404c-ab00-4261962a29b7")
-	)
-	(label "USBCC1"
-		(at 74.93 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9799bb3a-a8b7-4879-9ab4-a1b2c57f3221")
 	)
 	(label "USBCC1"
 		(at 110.49 182.88 0)
