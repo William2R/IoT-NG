@@ -1,0 +1,107 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7+1*%
+%TF.CreationDate,Date%
+%TF.ProjectId,IndustrialSense,496e6475-7374-4726-9961-6c53656e7365,+ (Unreleased)*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L2,Inr*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,ComponentPad*%
+%ADD10C,0.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11O,1.100000X2.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12O,1.200000X1.800000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14O,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD15R,1.100000X1.100000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD16C,1.100000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD17R,1.200000X1.200000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD18C,1.200000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.N,*%
+%TO.C,USB1*%
+X103410000Y-127417500D03*
+X109190000Y-127417500D03*
+D11*
+%TO.N,GND*%
+X101980000Y-126887500D03*
+D12*
+X101980000Y-131097500D03*
+D11*
+X110620000Y-126887500D03*
+D12*
+X110620000Y-131097500D03*
+%TD*%
+D13*
+%TO.N,/Project Architecture/External Connectors/LTE_RST*%
+%TO.C,J2*%
+X140150000Y-120625000D03*
+D14*
+%TO.N,GND*%
+X142690000Y-120625000D03*
+%TO.N,/Project Architecture/External Connectors/LTE_RXD2*%
+X140150000Y-123165000D03*
+%TO.N,GND*%
+X142690000Y-123165000D03*
+%TO.N,/Project Architecture/External Connectors/LTE_TXD2*%
+X140150000Y-125705000D03*
+%TO.N,/Project Architecture/External Connectors/LTE_ON*%
+X142690000Y-125705000D03*
+%TO.N,/Project Architecture/External Connectors/LTE_USBD+*%
+X140150000Y-128245000D03*
+%TO.N,V_MAIN*%
+X142690000Y-128245000D03*
+%TO.N,/Project Architecture/External Connectors/LTE_USBD-*%
+X140150000Y-130785000D03*
+%TO.N,V_MAIN*%
+X142690000Y-130785000D03*
+%TD*%
+D15*
+%TO.N,/Project Architecture/External Connectors/GPIO4*%
+%TO.C,U2*%
+X92170000Y-61640000D03*
+D16*
+%TO.N,/Project Architecture/External Connectors/GPIO5*%
+X92170000Y-63140000D03*
+%TO.N,/Project Architecture/External Connectors/GPIO6*%
+X92170000Y-64640000D03*
+%TO.N,/Project Architecture/External Connectors/GPIO7*%
+X92170000Y-66140000D03*
+%TO.N,/Project Architecture/External Connectors/GPIO8*%
+X92170000Y-67640000D03*
+%TD*%
+D17*
+%TO.N,V_MAIN*%
+%TO.C,CN2*%
+X92070000Y-80790000D03*
+D18*
+%TO.N,/Project Architecture/External Connectors/RS485_A*%
+X92070000Y-82290000D03*
+%TO.N,/Project Architecture/External Connectors/RS485_B*%
+X92070000Y-83790000D03*
+%TO.N,GND*%
+X92070000Y-85290000D03*
+%TD*%
+M02*

@@ -2,7 +2,7 @@
   <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
 </p>
 
-<h1 align="center">IndustrialSense</h1>
+<h1 align="center">IndistrialSense</h1>
 
 <p align="center" width="100%">
   <a href="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml">
@@ -28,7 +28,7 @@
 
 | Parameter | Value | 
 | --- | --- |
-| Dimensions | N/A × N/A mm |
+| Dimensions | 62.0 × 83.0 mm |
 
 ***
 
