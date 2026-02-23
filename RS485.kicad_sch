@@ -1002,7 +1002,7 @@
 		(members "RS485_A" "RS485_B")
 	)
 	(bus_alias "RS485"
-		(members "RS485_TXD1" "RS485_RXD1")
+		(members "RS485_RXD1" "RS485_TXD1")
 	)
 	(rectangle
 		(start 20.955 57.785)

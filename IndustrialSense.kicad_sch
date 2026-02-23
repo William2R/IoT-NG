@@ -1619,15 +1619,6 @@
 		)
 		(uuid "62b01781-ae4a-4e68-9a17-1436f3c897e5")
 	)
-	(bus_entry
-		(at 111.76 201.93)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7eeddd2c-d842-444d-8a9f-c252e4cbbb9e")
-	)
 	(polyline
 		(pts
 			(xy 45.72 73.66) (xy 106.68 73.66)
