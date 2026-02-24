@@ -60,13 +60,13 @@
 
 10)	DESIGN GEOMETRY MINIMUM FEATURE SIZES:
 
-	BOARD SIZE				62.000 × 83.000 mm
+	BOARD SIZE				46.900 × 90.000 mm
 	BOARD THICKNESS		1.660 mm
 	TRACE WIDTH			N/A mm
 	TRACE TO TRACE		-0.000 mm
 	MIN. HOLE (PTH)			0.600 mm
 	MIN. HOLE (NPTH)		N/A mm
-	ANNULAR RING			0.200 mm
+	ANNULAR RING			0.140 mm
 	COPPER TO HOLE		0.254 mm
 	COPPER TO EDGE		0.250 mm
 	HOLE TO HOLE			0.254 mm
@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">7dbfb0d</textvar>
+    <textvar name="GIT_HASH_PCB">7b98c81</textvar>
     <textvar name="GIT_HASH_SCH">7dbfb0d</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">IoT NG</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">22-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-22</textvar>
+    <textvar name="RELEASE_DATE">24-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-24</textvar>
     <textvar name="RELEASE_TITLE_1.0.0"/>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -1800,11 +1800,11 @@
     </comp>
     <comp ref="C12">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -1818,11 +1818,11 @@
     </comp>
     <comp ref="C26">
       <value>100n</value>
-      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
       <datasheet>~</datasheet>
       <description>Unpolarized capacitor</description>
       <fields>
-        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
       </fields>
@@ -2096,6 +2096,43 @@
       <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
       <tstamps>4fdae0b0-2081-44e2-8304-11080223027a</tstamps>
     </comp>
+    <comp ref="DC1">
+      <value>DC-005-5A-2.0-SMT</value>
+      <footprint>easyeda2kicad:DC-IN-TH_DC-005-5A-2.0-SMT</footprint>
+      <datasheet>https://lcsc.com/product-detail/Power-Connectors_XKB-Enterprise-DC-005-5A-2-0-SMT_C319134.html</datasheet>
+      <fields>
+        <field name="LCSC Part">C319134</field>
+        <field name="Footprint">easyeda2kicad:DC-IN-TH_DC-005-5A-2.0-SMT</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Power-Connectors_XKB-Enterprise-DC-005-5A-2-0-SMT_C319134.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="easyeda2kicad" part="DC-005-5A-2.0-SMT" description=""/>
+      <property name="LCSC Part" value="C319134"/>
+      <property name="Sheetname" value="External Connectors"/>
+      <property name="Sheetfile" value="EC.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
+      <tstamps>10024084-c24d-469a-8570-cb8144f664df</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x06_Socket</value>
+      <footprint>Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <fields>
+        <field name="Footprint">Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x06, script generated</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
+      <property name="Sheetname" value="External Connectors"/>
+      <property name="Sheetfile" value="EC.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
+      <tstamps>d92220d4-8f6b-4d89-be1f-6788811e3302</tstamps>
+    </comp>
     <comp ref="J2">
       <value>Conn_02x05_Odd_Even</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal</footprint>
@@ -2115,6 +2152,25 @@
       <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
       <tstamps>a3df11c9-271b-4f8f-9c23-1d5d4a74e6e9</tstamps>
     </comp>
+    <comp ref="J3">
+      <value>Conn_02x05_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="External Connectors"/>
+      <property name="Sheetfile" value="EC.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
+      <tstamps>0fdac514-27e0-4dae-b514-6757694eb390</tstamps>
+    </comp>
     <comp ref="U2">
       <value>B5B-ZR-(LF)(SN)</value>
       <footprint>easyeda2kicad:CONN-TH_5P-P1.50_B5B-ZR-LF-SN</footprint>
@@ -2132,6 +2188,24 @@
       <property name="Field2" value=""/>
       <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
       <tstamps>98170781-a550-4990-9470-f874762a183e</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>B6B-ZR (LF)(SN)</value>
+      <footprint>easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</footprint>
+      <datasheet>https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</datasheet>
+      <fields>
+        <field name="LCSC Part">C157984</field>
+        <field name="Footprint">easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="easyeda2kicad" part="B6B-ZR(LF)(SN)" description=""/>
+      <property name="LCSC Part" value="C157984"/>
+      <property name="Sheetname" value="External Connectors"/>
+      <property name="Sheetfile" value="EC.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
+      <tstamps>92993037-3943-4fce-bafe-d9aede9fef09</tstamps>
     </comp>
     <comp ref="C44">
       <value>100n</value>
@@ -2208,6 +2282,28 @@
     </comp>
   </components>
   <libparts>
+    <libpart lib="Connector" part="Conn_01x06_Socket">
+      <description>Generic connector, single row, 01x06, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x06, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
       <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -2379,6 +2475,25 @@
         <pin num="3" name="3" type="unspecified"/>
         <pin num="4" name="4" type="unspecified"/>
         <pin num="5" name="5" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="easyeda2kicad" part="B6B-ZR(LF)(SN)">
+      <docs>https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">B6B-ZR (LF)(SN)</field>
+        <field name="Footprint">easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</field>
+        <field name="Description"/>
+        <field name="LCSC Part">C157984</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
       </pins>
     </libpart>
     <libpart lib="easyeda2kicad" part="BM04B-SRSS-TB(LF)(SN)">
@@ -2565,6 +2680,22 @@
         <field name="Datasheet"/>
         <field name="Description"/>
         <field name="LCSC Part">C22418213</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="easyeda2kicad" part="DC-005-5A-2.0-SMT">
+      <docs>https://lcsc.com/product-detail/Power-Connectors_XKB-Enterprise-DC-005-5A-2-0-SMT_C319134.html</docs>
+      <fields>
+        <field name="Reference">DC</field>
+        <field name="Value">DC-005-5A-2.0-SMT</field>
+        <field name="Footprint">easyeda2kicad:DC-IN-TH_DC-005-5A-2.0-SMT</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/Power-Connectors_XKB-Enterprise-DC-005-5A-2-0-SMT_C319134.html</field>
+        <field name="Description"/>
+        <field name="LCSC Part">C319134</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="unspecified"/>
@@ -3014,6 +3145,9 @@
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
     <library logical="Connector_Generic">
       <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
     </library>
@@ -3635,112 +3769,187 @@
     <net code="104" name="unconnected-(D5-VCC-Pad5)" class="Default">
       <node ref="D5" pin="5" pinfunction="VCC" pintype="unspecified"/>
     </net>
-    <net code="105" name="unconnected-(L2-DIO2-Pad7)" class="Default">
+    <net code="105" name="unconnected-(DC1-Pad1)" class="Default">
+      <node ref="DC1" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="106" name="unconnected-(DC1-Pad2)" class="Default">
+      <node ref="DC1" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="107" name="unconnected-(DC1-Pad3)" class="Default">
+      <node ref="DC1" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="108" name="unconnected-(J1-Pin_1-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(J1-Pin_2-Pad2)" class="Default">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(J1-Pin_3-Pad3)" class="Default">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(J1-Pin_4-Pad4)" class="Default">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(J1-Pin_5-Pad5)" class="Default">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(J1-Pin_6-Pad6)" class="Default">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(J3-Pin_1-Pad1)" class="Default">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(J3-Pin_2-Pad2)" class="Default">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(J3-Pin_3-Pad3)" class="Default">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(J3-Pin_4-Pad4)" class="Default">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(J3-Pin_5-Pad5)" class="Default">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="119" name="unconnected-(J3-Pin_6-Pad6)" class="Default">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="120" name="unconnected-(J3-Pin_7-Pad7)" class="Default">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="121" name="unconnected-(J3-Pin_8-Pad8)" class="Default">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="122" name="unconnected-(J3-Pin_9-Pad9)" class="Default">
+      <node ref="J3" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="123" name="unconnected-(J3-Pin_10-Pad10)" class="Default">
+      <node ref="J3" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="124" name="unconnected-(L2-DIO2-Pad7)" class="Default">
       <node ref="L2" pin="7" pinfunction="DIO2" pintype="unspecified+no_connect"/>
     </net>
-    <net code="106" name="unconnected-(L2-DIO3-Pad8)" class="Default">
+    <net code="125" name="unconnected-(L2-DIO3-Pad8)" class="Default">
       <node ref="L2" pin="8" pinfunction="DIO3" pintype="unspecified+no_connect"/>
     </net>
-    <net code="107" name="unconnected-(L2-RXEN-Pad11)" class="Default">
+    <net code="126" name="unconnected-(L2-RXEN-Pad11)" class="Default">
       <node ref="L2" pin="11" pinfunction="RXEN" pintype="unspecified+no_connect"/>
     </net>
-    <net code="108" name="unconnected-(L2-TXEN-Pad5)" class="Default">
+    <net code="127" name="unconnected-(L2-TXEN-Pad5)" class="Default">
       <node ref="L2" pin="5" pinfunction="TXEN" pintype="unspecified+no_connect"/>
     </net>
-    <net code="109" name="unconnected-(Q6-PG-Pad3)" class="Default">
+    <net code="128" name="unconnected-(Q6-PG-Pad3)" class="Default">
       <node ref="Q6" pin="3" pinfunction="PG" pintype="unspecified+no_connect"/>
     </net>
-    <net code="110" name="unconnected-(U1-IO1-Pad39)" class="Default">
+    <net code="129" name="unconnected-(U1-IO1-Pad39)" class="Default">
       <node ref="U1" pin="39" pinfunction="IO1" pintype="unspecified+no_connect"/>
     </net>
-    <net code="111" name="unconnected-(U1-IO2-Pad38)" class="Default">
+    <net code="130" name="unconnected-(U1-IO2-Pad38)" class="Default">
       <node ref="U1" pin="38" pinfunction="IO2" pintype="unspecified+no_connect"/>
     </net>
-    <net code="112" name="unconnected-(U1-IO3-Pad15)" class="Default">
+    <net code="131" name="unconnected-(U1-IO3-Pad15)" class="Default">
       <node ref="U1" pin="15" pinfunction="IO3" pintype="unspecified+no_connect"/>
     </net>
-    <net code="113" name="unconnected-(U1-IO35-Pad28)" class="Default">
+    <net code="132" name="unconnected-(U1-IO35-Pad28)" class="Default">
       <node ref="U1" pin="28" pinfunction="IO35" pintype="unspecified+no_connect"/>
     </net>
-    <net code="114" name="unconnected-(U1-IO36-Pad29)" class="Default">
+    <net code="133" name="unconnected-(U1-IO36-Pad29)" class="Default">
       <node ref="U1" pin="29" pinfunction="IO36" pintype="unspecified+no_connect"/>
     </net>
-    <net code="115" name="unconnected-(U1-IO37-Pad30)" class="Default">
+    <net code="134" name="unconnected-(U1-IO37-Pad30)" class="Default">
       <node ref="U1" pin="30" pinfunction="IO37" pintype="unspecified+no_connect"/>
     </net>
-    <net code="116" name="unconnected-(U1-IO45-Pad26)" class="Default">
+    <net code="135" name="unconnected-(U1-IO45-Pad26)" class="Default">
       <node ref="U1" pin="26" pinfunction="IO45" pintype="unspecified+no_connect"/>
     </net>
-    <net code="117" name="unconnected-(U1-IO46-Pad16)" class="Default">
+    <net code="136" name="unconnected-(U1-IO46-Pad16)" class="Default">
       <node ref="U1" pin="16" pinfunction="IO46" pintype="unspecified+no_connect"/>
     </net>
-    <net code="118" name="unconnected-(U3-CTS-Pad15)" class="Default">
+    <net code="137" name="unconnected-(U3-CTS-Pad15)" class="Default">
       <node ref="U3" pin="15" pinfunction="CTS" pintype="unspecified+no_connect"/>
     </net>
-    <net code="119" name="unconnected-(U3-DCD-Pad11)" class="Default">
+    <net code="138" name="unconnected-(U3-DCD-Pad11)" class="Default">
       <node ref="U3" pin="11" pinfunction="DCD" pintype="unspecified+no_connect"/>
     </net>
-    <net code="120" name="unconnected-(U3-DSR-Pad14)" class="Default">
+    <net code="139" name="unconnected-(U3-DSR-Pad14)" class="Default">
       <node ref="U3" pin="14" pinfunction="DSR" pintype="unspecified+no_connect"/>
     </net>
-    <net code="121" name="unconnected-(U3-RI-Pad16)" class="Default">
+    <net code="140" name="unconnected-(U3-RI-Pad16)" class="Default">
       <node ref="U3" pin="16" pinfunction="RI" pintype="unspecified+no_connect"/>
     </net>
-    <net code="122" name="unconnected-(U3-~{ACT}-Pad10)" class="Default">
+    <net code="141" name="unconnected-(U3-~{ACT}-Pad10)" class="Default">
       <node ref="U3" pin="10" pinfunction="~{ACT}" pintype="unspecified+no_connect"/>
     </net>
-    <net code="123" name="unconnected-(U4-QSTRT-Pad6)" class="Default">
+    <net code="142" name="unconnected-(U4-QSTRT-Pad6)" class="Default">
       <node ref="U4" pin="6" pinfunction="QSTRT" pintype="unspecified+no_connect"/>
     </net>
-    <net code="124" name="unconnected-(U4-~{ALRT}-Pad5)" class="Default">
+    <net code="143" name="unconnected-(U4-~{ALRT}-Pad5)" class="Default">
       <node ref="U4" pin="5" pinfunction="~{ALRT}" pintype="unspecified+no_connect"/>
     </net>
-    <net code="125" name="unconnected-(U7-PG-Pad4)" class="Default">
+    <net code="144" name="unconnected-(U7-PG-Pad4)" class="Default">
       <node ref="U7" pin="4" pinfunction="PG" pintype="unspecified+no_connect"/>
     </net>
-    <net code="126" name="unconnected-(U9-NC-Pad4)" class="Default">
+    <net code="145" name="unconnected-(U9-NC-Pad4)" class="Default">
       <node ref="U9" pin="4" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="127" name="unconnected-(U14-DM4-Pad5)" class="Default">
+    <net code="146" name="unconnected-(U13-Pad1)" class="Default">
+      <node ref="U13" pin="1" pinfunction="1" pintype="unspecified"/>
+    </net>
+    <net code="147" name="unconnected-(U13-Pad2)" class="Default">
+      <node ref="U13" pin="2" pinfunction="2" pintype="unspecified"/>
+    </net>
+    <net code="148" name="unconnected-(U13-Pad3)" class="Default">
+      <node ref="U13" pin="3" pinfunction="3" pintype="unspecified"/>
+    </net>
+    <net code="149" name="unconnected-(U13-Pad4)" class="Default">
+      <node ref="U13" pin="4" pinfunction="4" pintype="unspecified"/>
+    </net>
+    <net code="150" name="unconnected-(U13-Pad5)" class="Default">
+      <node ref="U13" pin="5" pinfunction="5" pintype="unspecified"/>
+    </net>
+    <net code="151" name="unconnected-(U13-Pad6)" class="Default">
+      <node ref="U13" pin="6" pinfunction="6" pintype="unspecified"/>
+    </net>
+    <net code="152" name="unconnected-(U14-DM4-Pad5)" class="Default">
       <node ref="U14" pin="5" pinfunction="DM4" pintype="unspecified+no_connect"/>
     </net>
-    <net code="128" name="unconnected-(U14-DP4-Pad6)" class="Default">
+    <net code="153" name="unconnected-(U14-DP4-Pad6)" class="Default">
       <node ref="U14" pin="6" pinfunction="DP4" pintype="unspecified+no_connect"/>
     </net>
-    <net code="129" name="unconnected-(U14-LED1-Pad22)" class="Default">
+    <net code="154" name="unconnected-(U14-LED1-Pad22)" class="Default">
       <node ref="U14" pin="22" pinfunction="LED1" pintype="unspecified+no_connect"/>
     </net>
-    <net code="130" name="unconnected-(U14-LED2-Pad23)" class="Default">
+    <net code="155" name="unconnected-(U14-LED2-Pad23)" class="Default">
       <node ref="U14" pin="23" pinfunction="LED2" pintype="unspecified+no_connect"/>
     </net>
-    <net code="131" name="unconnected-(U14-LED3/SCL-Pad13)" class="Default">
+    <net code="156" name="unconnected-(U14-LED3/SCL-Pad13)" class="Default">
       <node ref="U14" pin="13" pinfunction="LED3/SCL" pintype="unspecified+no_connect"/>
     </net>
-    <net code="132" name="unconnected-(U14-LED4/SDA-Pad21)" class="Default">
+    <net code="157" name="unconnected-(U14-LED4/SDA-Pad21)" class="Default">
       <node ref="U14" pin="21" pinfunction="LED4/SDA" pintype="unspecified+no_connect"/>
     </net>
-    <net code="133" name="unconnected-(U14-NC-Pad17)" class="Default">
+    <net code="158" name="unconnected-(U14-NC-Pad17)" class="Default">
       <node ref="U14" pin="17" pinfunction="NC" pintype="unspecified+no_connect"/>
     </net>
-    <net code="134" name="unconnected-(U14-NC.-Pad2)" class="Default">
+    <net code="159" name="unconnected-(U14-NC.-Pad2)" class="Default">
       <node ref="U14" pin="2" pinfunction="NC." pintype="unspecified+no_connect"/>
     </net>
-    <net code="135" name="unconnected-(U14-PSELF-Pad18)" class="Default">
+    <net code="160" name="unconnected-(U14-PSELF-Pad18)" class="Default">
       <node ref="U14" pin="18" pinfunction="PSELF" pintype="unspecified+no_connect"/>
     </net>
-    <net code="136" name="unconnected-(U14-~{OVCUR}-Pad1)" class="Default">
+    <net code="161" name="unconnected-(U14-~{OVCUR}-Pad1)" class="Default">
       <node ref="U14" pin="1" pinfunction="~{OVCUR}" pintype="unspecified+no_connect"/>
     </net>
-    <net code="137" name="unconnected-(U14-~{PWREN}-Pad24)" class="Default">
+    <net code="162" name="unconnected-(U14-~{PWREN}-Pad24)" class="Default">
       <node ref="U14" pin="24" pinfunction="~{PWREN}" pintype="unspecified+no_connect"/>
     </net>
-    <net code="138" name="unconnected-(U14-~{RESET}/CDP-Pad16)" class="Default">
+    <net code="163" name="unconnected-(U14-~{RESET}/CDP-Pad16)" class="Default">
       <node ref="U14" pin="16" pinfunction="~{RESET}/CDP" pintype="unspecified+no_connect"/>
     </net>
-    <net code="139" name="unconnected-(USB1-SBU1-Pad9)" class="Default">
+    <net code="164" name="unconnected-(USB1-SBU1-Pad9)" class="Default">
       <node ref="USB1" pin="9" pinfunction="SBU1" pintype="unspecified+no_connect"/>
     </net>
-    <net code="140" name="unconnected-(USB1-SBU2-Pad3)" class="Default">
+    <net code="165" name="unconnected-(USB1-SBU2-Pad3)" class="Default">
       <node ref="USB1" pin="3" pinfunction="SBU2" pintype="unspecified+no_connect"/>
     </net>
   </nets>
