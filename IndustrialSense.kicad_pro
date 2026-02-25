@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.152
         }
       },
       "diff_pair_dimensions": [
@@ -527,12 +527,21 @@
         "microvia_drill": 0.1,
         "name": "BATTERY",
         "pcb_color": "rgb(255, 0, 171)",
-        "priority": 14,
+        "priority": 15,
         "schematic_color": "rgb(255, 0, 171)",
         "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.25,
         "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "line_style": 0,
+        "name": "CC",
+        "pcb_color": "rgb(255, 156, 163)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 156, 163)",
+        "wire_width": 6
       },
       {
         "bus_width": 12,
@@ -544,7 +553,7 @@
         "microvia_drill": 0.1,
         "name": "GND",
         "pcb_color": "rgb(194, 194, 194)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgb(194, 194, 194)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -555,9 +564,9 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "GPIO",
-        "pcb_color": "rgb(68, 192, 255)",
-        "priority": 0,
-        "schematic_color": "rgb(68, 192, 255)",
+        "pcb_color": "rgb(128, 77, 0)",
+        "priority": 1,
+        "schematic_color": "rgb(128, 77, 0)",
         "wire_width": 6
       },
       {
@@ -565,7 +574,7 @@
         "line_style": 0,
         "name": "I2C",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgb(194, 0, 194)",
         "wire_width": 6
       },
@@ -579,7 +588,7 @@
         "microvia_drill": 0.1,
         "name": "Kelvin Diff Pair",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -591,7 +600,7 @@
         "line_style": 0,
         "name": "LORA",
         "pcb_color": "rgb(0, 132, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(0, 132, 0)",
         "wire_width": 6
       },
@@ -605,7 +614,7 @@
         "microvia_drill": 0.1,
         "name": "LTE",
         "pcb_color": "rgb(139, 103, 213)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgb(139, 103, 213)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -622,7 +631,7 @@
         "microvia_drill": 0.1,
         "name": "Power 12V",
         "pcb_color": "rgb(0, 0, 255)",
-        "priority": 10,
+        "priority": 11,
         "schematic_color": "rgb(0, 0, 255)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -639,7 +648,7 @@
         "microvia_drill": 0.1,
         "name": "Power 3V3",
         "pcb_color": "rgb(220, 142, 0)",
-        "priority": 11,
+        "priority": 12,
         "schematic_color": "rgb(220, 142, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -655,9 +664,9 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RS485",
-        "pcb_color": "rgb(72, 72, 72)",
-        "priority": 5,
-        "schematic_color": "rgb(72, 72, 72)",
+        "pcb_color": "rgb(72, 0, 72)",
+        "priority": 6,
+        "schematic_color": "rgb(72, 0, 72)",
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
@@ -668,7 +677,7 @@
         "line_style": 0,
         "name": "SPI",
         "pcb_color": "rgb(0, 132, 132)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(0, 132, 132)",
         "wire_width": 6
       },
@@ -676,9 +685,9 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "USB",
-        "pcb_color": "rgb(0, 0, 132)",
-        "priority": 4,
-        "schematic_color": "rgb(0, 0, 132)",
+        "pcb_color": "rgb(68, 192, 255)",
+        "priority": 5,
+        "schematic_color": "rgb(68, 192, 255)",
         "wire_width": 6
       },
       {
@@ -691,7 +700,7 @@
         "microvia_drill": 0.1,
         "name": "VMAIN",
         "pcb_color": "rgb(212, 0, 32)",
-        "priority": 12,
+        "priority": 13,
         "schematic_color": "rgb(212, 0, 32)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -708,7 +717,7 @@
         "microvia_drill": 0.1,
         "name": "VSUN",
         "pcb_color": "rgb(162, 155, 0)",
-        "priority": 13,
+        "priority": 14,
         "schematic_color": "rgb(162, 155, 0)",
         "track_width": 0.2,
         "via_diameter": 0.55,
@@ -725,7 +734,7 @@
         "microvia_drill": 0.1,
         "name": "V_IN",
         "pcb_color": "rgb(177, 11, 198)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgb(177, 11, 198)",
         "track_width": 0.2,
         "via_diameter": 0.7,
@@ -950,6 +959,10 @@
       {
         "netclass": "GPIO",
         "pattern": "/Project Architecture/*/*GPIO*"
+      },
+      {
+        "netclass": "CC",
+        "pattern": "/Project Architecture/*/*CC*"
       }
     ]
   },
@@ -1086,6 +1099,14 @@
       "version": 1
     },
     "net_format_name": "KiCad",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "Templates/KDT_Template_GIT.kicad_wks",
     "plot_directory": "Schematic/",
     "space_save_all_events": true,
@@ -1149,7 +1170,7 @@
     "BOARD_NAME": "IndistrialSense",
     "COMPANY": "Narval Inc.",
     "DESIGNER": "William Regalado",
-    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL LEAD-FREE\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY NARVAL INC..\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t46.900 \u00d7 90.000 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\tN/A mm\n\tTRACE TO TRACE\t\t-0.000 mm\n\tMIN. HOLE (PTH)\t\t\t0.600 mm\n\tMIN. HOLE (NPTH)\t\tN/A mm\n\tANNULAR RING\t\t\t0.140 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
+    "FABRICATION_NOTES": "FABRICATION NOTES (UNLESS OTHERWISE SPECIFIED)\n\n1)\tFABRICATE PER IPC-6012A CLASS 2.\n\n2)\tOUTLINE DEFINED IN SEPARATE GERBER FILE WITH\n\t\"Edge_Cuts.GBR\" SUFFIX.\n\n\tDIMENSIONS OF CIRCUMSIZED RECTANGLE SHOWN ON THIS\n\tDRAWING FOR REFERENCE ONLY.\n\n3)\tSEE SEPARATE DRILL FILES WITH \".DRL\" SUFFIX \n\tFOR HOLE LOCATIONS.\n\n\tSELECTED HOLE LOCATIONS SHOWN ON THIS DRAWING \n\tFOR REFERENCE ONLY.\n\n4)\tSURFACE FINISH: HAL LEAD-FREE\n\n5)\tSOLDERMASK ON BOTH SIDES OF THE BOARD SHALL \n\tBE LPI, COLOR BLACK.\n\n6)\tSILK SCREEN LEGEND TO BE APPLIED PER LAYER \n\tSTACKUP USING YELLOW NON-CONDUCTIVE EPOXY INK.\n\n7)\tALL VIAS ARE TENTED ON BOTH SIDES UNLESS \n\tSOLDERMASK OPENED IN GERBER.\n\n8)\tVENDOR SHOULD FOLLOW ROHS COMPLIANT PROCESS \n\tAND Pb FREE FOR MANUFACTURING\n\n9)\tPCB MATERIAL REQUIREMENTS:\n\n\tA.\tFLAMMABILITY RATING MUST MEET OR EXCEED \n\t\tUL94V-0 REQUIREMENTS.\n\tB.\tTg 170 C OR EQUIVALENT.\n\tC.\tEQUIVALENT MATERIAL SHALL BE RoHS COMPLIANT, \n\t\tHALOGEN FREE AND APPROVED BY NARVAL INC..\n\n10)\tDESIGN GEOMETRY MINIMUM FEATURE SIZES:\n\n\tBOARD SIZE\t\t\t\t46.900 × 90.000 mm\n\tBOARD THICKNESS\t\t1.660 mm\n\tTRACE WIDTH\t\t\tN/A mm\n\tTRACE TO TRACE\t\t-0.000 mm\n\tMIN. HOLE (PTH)\t\t\t0.600 mm\n\tMIN. HOLE (NPTH)\t\tN/A mm\n\tANNULAR RING\t\t\t0.140 mm\n\tCOPPER TO HOLE\t\t0.254 mm\n\tCOPPER TO EDGE\t\t0.250 mm\n\tHOLE TO HOLE\t\t\t0.254 mm\n\n11)\tREFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.\n\n12)\tCONFIRM SPACE WIDTHS AND SPACINGS.",
     "GIT_HASH_PCB": "7b98c81",
     "GIT_HASH_SCH": "7dbfb0d",
     "GIT_URL": "https://github.com/nguyen-v/KDT_Hierarchical_KiBot",

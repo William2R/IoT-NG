@@ -2417,7 +2417,7 @@
 		(members "ESP_USBD-" "ESP_USBD+")
 	)
 	(bus_alias "GPIO"
-		(members "GPIO4" "GPIO5" "GPIO6" "GPIO7" "GPIO8")
+		(members "GPIO41G" "GPIO42R" "GPIO40B" "GPIO15" "GPIO16")
 	)
 	(bus_alias "LTE"
 		(members "LTE_TXD2" "LTE_RXD2" "LTE_RST" "LTE_ON")
@@ -3073,6 +3073,16 @@
 		)
 		(uuid "11101ff5-4bb0-4fa7-8463-375bc70a4887")
 	)
+	(wire
+		(pts
+			(xy 129.54 78.74) (xy 146.05 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12918e8e-02f7-4fa3-9b28-503b8f795284")
+	)
 	(bus
 		(pts
 			(xy 38.1 151.13) (xy 38.1 153.67)
@@ -3182,6 +3192,16 @@
 			(type default)
 		)
 		(uuid "1e6aaae4-d5e1-420c-a372-bd100691a3c6")
+	)
+	(wire
+		(pts
+			(xy 53.34 175.26) (xy 38.1 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c07139-b725-443b-bfa8-99eb03b8d31c")
 	)
 	(wire
 		(pts
@@ -3463,16 +3483,6 @@
 		)
 		(uuid "47b6d02f-9b7d-426b-b6fe-9794c27ba6de")
 	)
-	(wire
-		(pts
-			(xy 39.37 170.18) (xy 53.34 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47df2677-ee67-479d-9cae-9d62c3a7301f")
-	)
 	(bus
 		(pts
 			(xy 214.63 137.16) (xy 214.63 139.7)
@@ -3502,6 +3512,16 @@
 			(type default)
 		)
 		(uuid "4abd3013-8fa6-442b-91bd-51ee195c3550")
+	)
+	(wire
+		(pts
+			(xy 66.04 78.74) (xy 81.28 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d6eb9a1-7188-47f2-81ef-6c1013189f01")
 	)
 	(wire
 		(pts
@@ -3692,16 +3712,6 @@
 			(type default)
 		)
 		(uuid "6900b794-a17a-4299-b7b3-ea8e9b6d321e")
-	)
-	(wire
-		(pts
-			(xy 66.04 78.74) (xy 81.28 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a1748f2-f3d2-47ab-b72c-5680175d975e")
 	)
 	(wire
 		(pts
@@ -4145,16 +4155,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 180.34) (xy 53.34 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a61db804-e17c-4088-85f8-0bfe4436949d")
-	)
-	(wire
-		(pts
 			(xy 187.96 43.18) (xy 220.98 43.18)
 		)
 		(stroke
@@ -4172,6 +4172,16 @@
 			(type default)
 		)
 		(uuid "a9a4a6aa-f3dc-4f9d-9403-7e5034ca1c11")
+	)
+	(wire
+		(pts
+			(xy 53.34 180.34) (xy 38.1 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9e8b3dc-daa7-4131-9191-18835317d8e6")
 	)
 	(bus
 		(pts
@@ -4275,16 +4285,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 177.8) (xy 53.34 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be9297c3-30a1-4ed7-b03c-c08541d256de")
-	)
-	(wire
-		(pts
 			(xy 224.79 88.9) (xy 224.79 87.63)
 		)
 		(stroke
@@ -4302,6 +4302,16 @@
 			(type default)
 		)
 		(uuid "c002fd48-8d39-4e19-8539-9b7a6b5194cb")
+	)
+	(wire
+		(pts
+			(xy 53.34 177.8) (xy 38.1 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c385f186-6d1d-4b0a-abfb-ac061b95e250")
 	)
 	(wire
 		(pts
@@ -4343,16 +4353,6 @@
 		)
 		(uuid "ca35b076-5de3-44d0-9540-41482f0e4046")
 	)
-	(wire
-		(pts
-			(xy 39.37 172.72) (xy 53.34 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cac233dd-dbf5-4ac4-b43e-d6cc35de1578")
-	)
 	(bus
 		(pts
 			(xy 38.1 148.59) (xy 38.1 151.13)
@@ -4372,6 +4372,16 @@
 			(type default)
 		)
 		(uuid "cb6ee14d-3220-4b07-b4b2-b21da216eed6")
+	)
+	(wire
+		(pts
+			(xy 53.34 172.72) (xy 38.1 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa406bf-c8b7-4a56-b260-45604f6307c0")
 	)
 	(wire
 		(pts
@@ -4452,6 +4462,16 @@
 			(type default)
 		)
 		(uuid "d58b320b-1fea-40ac-a680-f7e07a4234e1")
+	)
+	(wire
+		(pts
+			(xy 53.34 170.18) (xy 38.1 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5e11ebb-8bfc-4ceb-93ca-bcc49856b146")
 	)
 	(wire
 		(pts
@@ -4653,16 +4673,6 @@
 		)
 		(uuid "fb97d4b9-55c0-4954-a8ee-060fe3b0584b")
 	)
-	(wire
-		(pts
-			(xy 39.37 175.26) (xy 53.34 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc55c534-87f4-4fd5-af95-8c670cbbb74f")
-	)
 	(bus
 		(pts
 			(xy 38.1 148.59) (xy 48.26 148.59)
@@ -4693,25 +4703,15 @@
 		)
 		(uuid "fef4c4a2-8122-4318-b64b-8b53185fd2f7")
 	)
-	(wire
-		(pts
-			(xy 129.54 78.74) (xy 146.05 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9c5bd0-ceae-4df4-8be0-e58174c8516e")
-	)
-	(label "GPIO8"
-		(at 39.37 180.34 0)
+	(label "GPIO42R"
+		(at 146.05 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "0eae71a7-6159-419b-933e-f7ef2aec540d")
+		(uuid "01e2a939-9e67-4d89-9f68-24df46f67745")
 	)
 	(label "ESP_BOOT"
 		(at 146.05 91.44 180)
@@ -4732,16 +4732,6 @@
 			(justify left bottom)
 		)
 		(uuid "16db67dc-fd74-4945-b890-b479eb617d5e")
-	)
-	(label "GPIO6"
-		(at 66.04 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b1722fc-bb3f-4393-9ffb-c6fdad57059c")
 	)
 	(label "PWR_KEY"
 		(at 156.21 142.24 0)
@@ -4783,15 +4773,15 @@
 		)
 		(uuid "2b3e53ed-6ab1-4b7c-be2f-ca8644f2914a")
 	)
-	(label "LTE_RST"
-		(at 146.05 76.2 180)
+	(label "LTE_ON"
+		(at 66.04 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "33365007-abbf-45ea-811e-b7b7e5b6139a")
+		(uuid "3304a0ad-6509-431c-9528-54c451917edf")
 	)
 	(label "I2C_SCL"
 		(at 21.59 92.71 0)
@@ -4813,7 +4803,7 @@
 		)
 		(uuid "33fb364a-5704-4f59-b5e8-9ee85ddc2e7b")
 	)
-	(label "GPIO8"
+	(label "GPIO15"
 		(at 66.04 76.2 0)
 		(effects
 			(font
@@ -4833,15 +4823,15 @@
 		)
 		(uuid "3b7ec8f1-56e6-4aa8-bfdc-1d7f4bc8dfb8")
 	)
-	(label "GPIO7"
-		(at 66.04 73.66 0)
+	(label "GPIO15"
+		(at 38.1 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "3c1c7677-549d-4f2d-8604-a71f40c20e41")
+		(uuid "3d82ed39-0081-4fc5-a528-6c181c0aaf3b")
 	)
 	(label "ESP_RXD0"
 		(at 146.05 68.58 180)
@@ -4873,15 +4863,15 @@
 		)
 		(uuid "41307401-dac4-4665-be80-1660fbe15a98")
 	)
-	(label "LTE_RXD2"
-		(at 146.05 73.66 180)
+	(label "GPIO42R"
+		(at 38.1 172.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "4212dd98-d7f7-42b6-9247-cb2419cb129d")
+		(uuid "4278584d-ae34-4042-abdf-e23410a9c5ea")
 	)
 	(label "SPI_CLK"
 		(at 20.32 140.97 0)
@@ -4913,16 +4903,6 @@
 		)
 		(uuid "47a07618-e138-4844-849c-f9e560a3f644")
 	)
-	(label "PWR_KEY"
-		(at 66.04 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "47ddad06-6611-4a9f-911d-8e010980544d")
-	)
 	(label "LTE_RST"
 		(at 60.96 158.75 0)
 		(effects
@@ -4943,25 +4923,25 @@
 		)
 		(uuid "4e845cbb-a7bd-4ffc-ab0b-c8bab33d84c7")
 	)
-	(label "LOCK_PWR"
-		(at 146.05 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d218a88-37be-4d34-b735-a75ea82783f7")
-	)
-	(label "GPIO5"
-		(at 39.37 172.72 0)
+	(label "GPIO41G"
+		(at 38.1 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "5fa9d00d-56f0-4d08-85fa-fa85c96657e5")
+		(uuid "52d7f1dc-defd-4db9-ad2a-24e3d08b37f4")
+	)
+	(label "GPIO16"
+		(at 66.04 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5f3a86bd-dd7a-4472-99c6-73a8de82d32c")
 	)
 	(label "ESP_USBD+"
 		(at 196.85 142.24 0)
@@ -4973,16 +4953,6 @@
 		)
 		(uuid "60708f1b-4a3d-4a00-ab4b-11176cd7cfaa")
 	)
-	(label "GPIO6"
-		(at 39.37 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6980d435-18f7-454a-9176-aa1c6b900f2e")
-	)
 	(label "LTE_ON"
 		(at 60.96 161.29 0)
 		(effects
@@ -4993,15 +4963,15 @@
 		)
 		(uuid "6b2c8688-4586-42c3-b0d8-a7fa0e284d8f")
 	)
-	(label "LTE_TXD2"
-		(at 146.05 71.12 180)
+	(label "LOCK_PWR"
+		(at 146.05 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6bdc5f0b-00b4-4d8a-a86b-6a15a553dc8d")
+		(uuid "6bdbac1b-ea37-4913-8070-e87ef0aad705")
 	)
 	(label "SPI_MOSI{slash}CMD"
 		(at 20.32 138.43 0)
@@ -5053,6 +5023,16 @@
 		)
 		(uuid "7c6fe698-f9a2-40ff-995b-4a37b20b1588")
 	)
+	(label "GPIO41G"
+		(at 146.05 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ed84e67-d605-4d52-aeaf-814a729b5d2f")
+	)
 	(label "RS485_TXD1"
 		(at 233.68 140.97 0)
 		(effects
@@ -5083,15 +5063,15 @@
 		)
 		(uuid "86f5094f-806c-4e43-9640-832b02541b24")
 	)
-	(label "GPIO7"
-		(at 39.37 177.8 0)
+	(label "LTE_TXD2"
+		(at 66.04 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8ad10861-c48f-446e-a028-9279de9d02ae")
+		(uuid "8b5f5cc5-087d-41cc-8c3b-bb2836a967c8")
 	)
 	(label "SPI_CLK"
 		(at 66.04 114.3 0)
@@ -5102,6 +5082,16 @@
 			(justify left bottom)
 		)
 		(uuid "8b75eb5a-94f7-4776-8b1b-bfd5a38f259c")
+	)
+	(label "PWR_KEY"
+		(at 146.05 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d834d82-7494-48e3-af26-c9373b80d11f")
 	)
 	(label "RA_BUSY"
 		(at 146.05 113.03 180)
@@ -5123,6 +5113,16 @@
 		)
 		(uuid "8f1b1c02-c91d-44d4-aec0-0f6e154acff8")
 	)
+	(label "LTE_RST"
+		(at 66.04 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "906771ce-f48d-4332-88d0-1d5205dfb591")
+	)
 	(label "RA_DIO1"
 		(at 20.32 156.21 0)
 		(effects
@@ -5142,26 +5142,6 @@
 			(justify left bottom)
 		)
 		(uuid "95e61dac-8c3b-4aec-bda9-07be2fce79bd")
-	)
-	(label "GPIO5"
-		(at 66.04 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97247c84-9204-4931-9da4-729cb7186652")
-	)
-	(label "LTE_ON"
-		(at 146.05 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a50e6ce9-4824-473a-9fb1-08ac2dcfc96e")
 	)
 	(label "I2C_SDA"
 		(at 21.59 95.25 0)
@@ -5193,6 +5173,16 @@
 		)
 		(uuid "af58318f-44cb-4aeb-a0bc-2d5f6c6b726c")
 	)
+	(label "GPIO16"
+		(at 38.1 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "afbf0bd0-2c91-4966-9c01-c6026db27078")
+	)
 	(label "ESP_USBD-"
 		(at 196.85 139.7 0)
 		(effects
@@ -5202,6 +5192,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0fa37d8-0d29-4ba3-a805-b98fcb78a767")
+	)
+	(label "LTE_RXD2"
+		(at 66.04 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4a3dd0e-2c33-47c4-a501-230f136ee694")
 	)
 	(label "ESP_EN"
 		(at 66.04 63.5 0)
@@ -5243,15 +5243,15 @@
 		)
 		(uuid "c10cf468-2ca8-47ad-9c25-d7805025f7eb")
 	)
-	(label "GPIO4"
-		(at 39.37 170.18 0)
+	(label "GPIO40B"
+		(at 38.1 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "c26bef11-e5cc-48bd-9251-b4541b0e07b4")
+		(uuid "ced50985-33ec-41fc-8913-c6cc3d8e75b7")
 	)
 	(label "CH343_USBD-"
 		(at 109.22 142.24 0)
@@ -5262,16 +5262,6 @@
 			(justify left bottom)
 		)
 		(uuid "d3625675-fbed-421f-ba8e-fe7eb1f6115b")
-	)
-	(label "GPIO4"
-		(at 66.04 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d36f4e65-5f79-44b1-88ec-51efe0e24eb3")
 	)
 	(label "SPI_MISO{slash}D0"
 		(at 20.32 143.51 0)
@@ -5342,6 +5332,16 @@
 			(justify left bottom)
 		)
 		(uuid "f1aa0daf-3243-4031-a8d4-b1ecb0cf76aa")
+	)
+	(label "GPIO40B"
+		(at 146.05 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f24a73b7-741f-475b-8eb1-577c8f7b7283")
 	)
 	(label "CH343_RTS"
 		(at 184.15 114.3 0)
