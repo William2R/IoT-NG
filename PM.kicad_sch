@@ -8401,16 +8401,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 345.44) (xy 102.87 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95175a80-071e-417b-9cbf-9d5308566d61")
-	)
-	(wire
-		(pts
 			(xy 207.01 157.48) (xy 208.28 157.48)
 		)
 		(stroke
@@ -10299,16 +10289,6 @@
 		)
 		(uuid "8559f16e-7a6b-4408-8a0e-da45da14b8c4")
 	)
-	(label "KEY_PWR"
-		(at 111.76 345.44 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86506adc-c110-4fe7-8483-f5dcdc906356")
-	)
 	(label "LOCK_PWR"
 		(at 506.73 228.6 0)
 		(effects
@@ -10418,6 +10398,28 @@
 			(justify left bottom)
 		)
 		(uuid "fe3655cc-a3e3-4e46-9613-bb8bfd2a7b7f")
+	)
+	(global_label "KEY_PWR"
+		(shape input)
+		(at 102.87 345.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a03b2bd5-16db-46ae-a513-3fe032a1dcd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3218 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(hierarchical_label "{CC}"
 		(shape bidirectional)

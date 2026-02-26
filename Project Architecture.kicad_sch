@@ -557,16 +557,6 @@
 	)
 	(bus
 		(pts
-			(xy 133.35 90.17) (xy 151.13 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d06ce3ec-76de-456a-a586-991aed48ab3e")
-	)
-	(bus
-		(pts
 			(xy 151.13 125.73) (xy 104.14 125.73)
 		)
 		(stroke
@@ -604,6 +594,16 @@
 			(type default)
 		)
 		(uuid "e07f7129-405f-4955-9c50-48fb68966ac2")
+	)
+	(bus
+		(pts
+			(xy 133.35 90.17) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0325be-dcff-4041-9b18-653ddc1ab7ad")
 	)
 	(bus
 		(pts
@@ -729,7 +729,7 @@
 	)
 	(sheet
 		(at 151.13 118.11)
-		(size 25.908 12.446)
+		(size 25.908 16.764)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -754,7 +754,7 @@
 			)
 		)
 		(property "Sheetfile" "EC.kicad_sch"
-			(at 151.13 131.1406 0)
+			(at 151.13 135.4586 0)
 			(effects
 				(font
 					(face "Arial")
