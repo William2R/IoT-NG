@@ -1448,7 +1448,7 @@
 	)
 	(text "DESIGN CONSIDERATIONS"
 		(exclude_from_sim no)
-		(at 26.67 255.27 0)
+		(at 25.654 266.192 0)
 		(effects
 			(font
 				(face "Arial")
@@ -1460,10 +1460,10 @@
 		)
 		(uuid "faea8a5f-3a8f-49cb-9832-569be941b06b")
 	)
-	(text_box "DESIGN NOTE:\nExample text for cautionary design notes."
+	(text_box "DESIGN NOTE:\nReverse polarity caution"
 		(exclude_from_sim no)
-		(at 96.52 258.445 0)
-		(size 30.48 20.32)
+		(at 96.52 266.192 0)
+		(size 30.48 12.573)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
@@ -1483,10 +1483,10 @@
 		)
 		(uuid "14407e09-ee6c-4b22-86d1-36d73a33e664")
 	)
-	(text_box "DESIGN NOTE:\nExample text for debug notes."
+	(text_box "DESIGN NOTE:\nUSB HUB for debug"
 		(exclude_from_sim no)
-		(at 61.595 258.445 0)
-		(size 30.48 20.32)
+		(at 61.595 266.446 0)
+		(size 30.48 12.319)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
@@ -1506,10 +1506,10 @@
 		)
 		(uuid "1499d9a9-9f29-4929-8df7-74d84823ddfb")
 	)
-	(text_box "DESIGN NOTE:\nExample text for critical design notes."
+	(text_box "DESIGN NOTE:\nShared SPI"
 		(exclude_from_sim no)
-		(at 131.445 258.445 0)
-		(size 30.48 20.32)
+		(at 131.445 266.446 0)
+		(size 30.48 12.319)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 1.5)
@@ -1531,10 +1531,10 @@
 		)
 		(uuid "1c311692-d683-4cdf-ac31-77bcdd4c4b39")
 	)
-	(text_box "LAYOUT NOTE:\nExample text for critical layout guidelines."
+	(text_box "LAYOUT NOTE:\nRF far from power\n"
 		(exclude_from_sim no)
-		(at 166.37 258.445 0)
-		(size 30.48 20.32)
+		(at 166.37 266.446 0)
+		(size 30.48 12.319)
 		(margins 2.25 2.25 2.25 2.25)
 		(stroke
 			(width 1.5)
@@ -1576,10 +1576,10 @@
 		)
 		(uuid "33c3f6da-ba9e-4d58-9257-d85394a72b7b")
 	)
-	(text_box "DESIGN NOTE:\nExample text for informational design notes."
+	(text_box "DESIGN NOTE:\nNode hardware"
 		(exclude_from_sim no)
-		(at 26.67 258.445 0)
-		(size 30.48 20.32)
+		(at 26.67 266.446 0)
+		(size 30.48 12.319)
 		(margins 2 2 2 2)
 		(stroke
 			(width 1)
