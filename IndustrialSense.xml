@@ -74,7 +74,7 @@
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">3a63ce1</textvar>
+    <textvar name="GIT_HASH_PCB">3f584d1</textvar>
     <textvar name="GIT_HASH_SCH">3a63ce1</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">IoT NG</textvar>
@@ -92,8 +92,8 @@
     <textvar name="RELEASE_TITLE_UNRELEASED">Version Unreleased not found.</textvar>
     <textvar name="REVISION">+ (Unreleased)</textvar>
     <textvar name="SHEET_NAME_1">Cover Page</textvar>
-    <textvar name="SHEET_NAME_10">HUB</textvar>
-    <textvar name="SHEET_NAME_11">Revision History</textvar>
+    <textvar name="SHEET_NAME_10">Revision History</textvar>
+    <textvar name="SHEET_NAME_11">......................................</textvar>
     <textvar name="SHEET_NAME_12">......................................</textvar>
     <textvar name="SHEET_NAME_13">......................................</textvar>
     <textvar name="SHEET_NAME_14">......................................</textvar>
@@ -102,7 +102,7 @@
     <textvar name="SHEET_NAME_17">......................................</textvar>
     <textvar name="SHEET_NAME_18">......................................</textvar>
     <textvar name="SHEET_NAME_19">......................................</textvar>
-    <textvar name="SHEET_NAME_2">Block Diagram</textvar>
+    <textvar name="SHEET_NAME_2">Project Architecture</textvar>
     <textvar name="SHEET_NAME_20">......................................</textvar>
     <textvar name="SHEET_NAME_21">......................................</textvar>
     <textvar name="SHEET_NAME_22">......................................</textvar>
@@ -113,7 +113,7 @@
     <textvar name="SHEET_NAME_27">......................................</textvar>
     <textvar name="SHEET_NAME_28">......................................</textvar>
     <textvar name="SHEET_NAME_29">......................................</textvar>
-    <textvar name="SHEET_NAME_3">Project Architecture</textvar>
+    <textvar name="SHEET_NAME_3">Power Management</textvar>
     <textvar name="SHEET_NAME_30">......................................</textvar>
     <textvar name="SHEET_NAME_31">......................................</textvar>
     <textvar name="SHEET_NAME_32">......................................</textvar>
@@ -124,13 +124,13 @@
     <textvar name="SHEET_NAME_37">......................................</textvar>
     <textvar name="SHEET_NAME_38">......................................</textvar>
     <textvar name="SHEET_NAME_39">......................................</textvar>
-    <textvar name="SHEET_NAME_4">Power Management</textvar>
+    <textvar name="SHEET_NAME_4">MCU</textvar>
     <textvar name="SHEET_NAME_40">......................................</textvar>
-    <textvar name="SHEET_NAME_5">MCU</textvar>
-    <textvar name="SHEET_NAME_6">SD CARD</textvar>
-    <textvar name="SHEET_NAME_7">RS485</textvar>
-    <textvar name="SHEET_NAME_8">LoRa</textvar>
-    <textvar name="SHEET_NAME_9">External Connectors</textvar>
+    <textvar name="SHEET_NAME_5">SD CARD</textvar>
+    <textvar name="SHEET_NAME_6">RS485</textvar>
+    <textvar name="SHEET_NAME_7">LoRa</textvar>
+    <textvar name="SHEET_NAME_8">External Connectors</textvar>
+    <textvar name="SHEET_NAME_9">HUB</textvar>
     <textvar name="VARIANT">PRELIMINARY</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1703,7 +1703,169 @@
       <property name="ki_keywords" value="test point tp"/>
       <property name="ki_fp_filters" value="Pin* Test*"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
-      <tstamps>0f6c1226-5515-4602-89ab-14ee2405733e</tstamps>
+      <tstamps>1f695b2c-75d4-4b4c-ad35-98f40cf908f8</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>c7bdb42c-4cbc-43db-aa39-102abdccad39</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>3c8ed49b-a9a4-46d8-885f-7c86dcf4af48</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>b139f652-a828-424d-86d4-f4246a2d1df5</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>18f2ebde-620e-4840-aebf-862346a39748</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>c0e8905b-dd07-4a43-bbfb-1c11b9f3862a</tstamps>
+    </comp>
+    <comp ref="TP7">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>be8abdba-9d2e-4994-a01d-9ca1b47a59f6</tstamps>
+    </comp>
+    <comp ref="TP8">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>97163e8c-1cdf-4624-be60-2b066e672033</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>3e91f194-0824-442d-8c10-5643be09160e</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TestPoint</value>
+      <footprint>tests:tp05</footprint>
+      <datasheet>~</datasheet>
+      <description>test point</description>
+      <fields>
+        <field name="Footprint">tests:tp05</field>
+        <field name="Datasheet">~</field>
+        <field name="Description">test point</field>
+      </fields>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value="Power Management"/>
+      <property name="Sheetfile" value="PM.kicad_sch"/>
+      <property name="ki_keywords" value="test point tp"/>
+      <property name="ki_fp_filters" value="Pin* Test*"/>
+      <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
+      <tstamps>5210bed5-910b-46bc-8f50-1ba9789f5d9e</tstamps>
     </comp>
     <comp ref="U4">
       <value>MAX17049G+T10</value>
@@ -3946,6 +4108,7 @@
     <net code="51" name="/Project Architecture/MCU/PWR_KEY" class="Default">
       <node ref="Q13" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="R49" pin="2" pintype="passive"/>
+      <node ref="TP8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="31" pinfunction="IO38" pintype="unspecified"/>
     </net>
     <net code="52" name="/Project Architecture/MCU/RS485_RXD1" class="Default">
@@ -3957,12 +4120,26 @@
       <node ref="U1" pin="10" pinfunction="IO17" pintype="unspecified"/>
       <node ref="U17" pin="4" pinfunction="D" pintype="unspecified"/>
     </net>
-    <net code="56" name="3V3_FG" class="Default">
+    <net code="56" name="/Project Architecture/Power Management/PWR_EN" class="Default">
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="TP10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U7" pin="13" pinfunction="EN" pintype="unspecified"/>
+    </net>
+    <net code="57" name="/Project Architecture/Power Management/PWR_SEL" class="Default">
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="TP9" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="58" name="3V3_FG" class="Default">
       <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U4" pin="3" pinfunction="VDD" pintype="unspecified"/>
       <node ref="U9" pin="5" pinfunction="VOUT" pintype="unspecified"/>
     </net>
-    <net code="57" name="3V3_MCU" class="Default">
+    <net code="59" name="3V3_MCU" class="Default">
       <node ref="C12" pin="1" pintype="passive"/>
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C26" pin="1" pintype="passive"/>
@@ -3983,6 +4160,7 @@
       <node ref="R50" pin="1" pintype="passive"/>
       <node ref="R57" pin="1" pintype="passive"/>
       <node ref="R58" pin="1" pintype="passive"/>
+      <node ref="TP4" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="3V3" pintype="power_in"/>
       <node ref="U12" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="U14" pin="19" pinfunction="V5" pintype="unspecified"/>
@@ -3993,7 +4171,7 @@
       <node ref="U3" pin="9" pinfunction="VBUS" pintype="unspecified"/>
       <node ref="U7" pin="14" pinfunction="VOS" pintype="unspecified"/>
     </net>
-    <net code="58" name="GND" class="Default">
+    <net code="60" name="GND" class="Default">
       <node ref="C1" pin="2" pinfunction="2" pintype="input"/>
       <node ref="C12" pin="2" pintype="passive"/>
       <node ref="C13" pin="2" pintype="passive"/>
@@ -4093,112 +4271,101 @@
       <node ref="X1" pin="2" pinfunction="GND" pintype="unspecified"/>
       <node ref="X1" pin="4" pinfunction="GND" pintype="unspecified"/>
     </net>
-    <net code="59" name="KEY_PWR" class="Default">
+    <net code="61" name="KEY_PWR" class="Default">
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R48" pin="1" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="U2" pin="5" pinfunction="5" pintype="unspecified"/>
     </net>
-    <net code="60" name="Net-(C25-Pad1)" class="Default">
+    <net code="62" name="Net-(C25-Pad1)" class="Default">
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="R7" pin="2" pintype="passive"/>
     </net>
-    <net code="61" name="Net-(D1-K)" class="Default">
+    <net code="63" name="Net-(D1-K)" class="Default">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="L3" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
-    <net code="62" name="Net-(D2-A)" class="Default">
+    <net code="64" name="Net-(D2-A)" class="Default">
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q5" pin="5" pinfunction="D" pintype="unspecified"/>
       <node ref="Q5" pin="6" pinfunction="D" pintype="unspecified"/>
       <node ref="Q5" pin="7" pinfunction="D" pintype="unspecified"/>
       <node ref="Q5" pin="8" pinfunction="D" pintype="unspecified"/>
     </net>
-    <net code="63" name="Net-(D6-K)" class="Default">
-      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R55" pin="1" pintype="passive"/>
-    </net>
-    <net code="64" name="Net-(D16-A)" class="Default">
+    <net code="65" name="Net-(D16-A)" class="Default">
       <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="R11" pin="2" pintype="passive"/>
     </net>
-    <net code="65" name="Net-(D16-K)" class="Default">
+    <net code="66" name="Net-(D16-K)" class="Default">
       <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U11" pin="3" pinfunction="nCHRG" pintype="unspecified"/>
     </net>
-    <net code="66" name="Net-(L2-ANT)" class="Default">
+    <net code="67" name="Net-(L2-ANT)" class="Default">
       <node ref="D3" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="L2" pin="1" pinfunction="ANT" pintype="unspecified"/>
       <node ref="RF1" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
-    <net code="67" name="Net-(Q1-G)" class="Default">
+    <net code="68" name="Net-(Q1-G)" class="Default">
       <node ref="Q1" pin="4" pinfunction="G" pintype="unspecified"/>
       <node ref="R1" pin="2" pintype="passive"/>
       <node ref="U5" pin="5" pinfunction="GATE" pintype="unspecified"/>
     </net>
-    <net code="68" name="Net-(Q2-G)" class="Default">
+    <net code="69" name="Net-(Q2-G)" class="Default">
       <node ref="Q2" pin="4" pinfunction="G" pintype="unspecified"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U6" pin="5" pinfunction="GATE" pintype="unspecified"/>
     </net>
-    <net code="69" name="Net-(Q3-G)" class="Default">
+    <net code="70" name="Net-(Q3-G)" class="Default">
       <node ref="Q3" pin="4" pinfunction="G" pintype="unspecified"/>
       <node ref="R3" pin="2" pintype="passive"/>
       <node ref="U8" pin="5" pinfunction="GATE" pintype="unspecified"/>
     </net>
-    <net code="70" name="Net-(Q4-G)" class="Default">
+    <net code="71" name="Net-(Q4-G)" class="Default">
       <node ref="Q4" pin="4" pinfunction="G" pintype="unspecified"/>
       <node ref="R6" pin="2" pintype="passive"/>
       <node ref="U10" pin="5" pinfunction="GATE" pintype="unspecified"/>
     </net>
-    <net code="71" name="Net-(Q5-G)" class="Default">
+    <net code="72" name="Net-(Q5-G)" class="Default">
       <node ref="Q5" pin="4" pinfunction="G" pintype="unspecified"/>
       <node ref="U11" pin="10" pinfunction="DRV" pintype="unspecified"/>
     </net>
-    <net code="72" name="Net-(Q6-CFG)" class="Default">
+    <net code="73" name="Net-(Q6-CFG)" class="Default">
       <node ref="Q6" pin="6" pinfunction="CFG" pintype="unspecified"/>
       <node ref="R59" pin="2" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(Q6-VDD)" class="Default">
+    <net code="74" name="Net-(Q6-VDD)" class="Default">
       <node ref="C37" pin="1" pintype="passive"/>
       <node ref="Q6" pin="1" pinfunction="VDD" pintype="unspecified"/>
       <node ref="R59" pin="1" pintype="passive"/>
       <node ref="R60" pin="2" pintype="passive"/>
     </net>
-    <net code="74" name="Net-(Q13-B)" class="Default">
+    <net code="75" name="Net-(Q13-B)" class="Default">
       <node ref="Q13" pin="1" pinfunction="B" pintype="input"/>
       <node ref="R47" pin="1" pintype="passive"/>
       <node ref="R48" pin="2" pintype="passive"/>
     </net>
-    <net code="75" name="Net-(Q15-B-Pad2)" class="Default">
+    <net code="76" name="Net-(Q15-B-Pad2)" class="Default">
       <node ref="Q15" pin="2" pinfunction="B" pintype="unspecified"/>
       <node ref="R54" pin="1" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(Q15-B-Pad5)" class="Default">
+    <net code="77" name="Net-(Q15-B-Pad5)" class="Default">
       <node ref="Q15" pin="5" pinfunction="B" pintype="unspecified"/>
       <node ref="R53" pin="2" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(U3-V3)" class="Default">
+    <net code="78" name="Net-(U3-V3)" class="Default">
       <node ref="C46" pin="1" pintype="passive"/>
       <node ref="C48" pin="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="VDD5" pintype="unspecified"/>
       <node ref="U3" pin="6" pinfunction="V3" pintype="unspecified"/>
     </net>
-    <net code="78" name="Net-(U5-VCAP)" class="Default">
+    <net code="79" name="Net-(U5-VCAP)" class="Default">
       <node ref="C18" pin="1" pintype="passive"/>
       <node ref="U5" pin="1" pinfunction="VCAP" pintype="unspecified"/>
     </net>
-    <net code="79" name="Net-(U6-VCAP)" class="Default">
+    <net code="80" name="Net-(U6-VCAP)" class="Default">
       <node ref="C17" pin="1" pintype="passive"/>
       <node ref="U6" pin="1" pinfunction="VCAP" pintype="unspecified"/>
-    </net>
-    <net code="80" name="Net-(U7-EN)" class="Default">
-      <node ref="R55" pin="2" pintype="passive"/>
-      <node ref="R56" pin="1" pintype="passive"/>
-      <node ref="U7" pin="13" pinfunction="EN" pintype="unspecified"/>
     </net>
     <net code="81" name="Net-(U7-SS/TR)" class="Default">
       <node ref="C16" pin="1" pintype="passive"/>
@@ -4272,7 +4439,7 @@
       <node ref="Q2" pin="3" pinfunction="S" pintype="unspecified"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R60" pin="1" pintype="passive"/>
-      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="TP7" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U13" pin="6" pinfunction="6" pintype="unspecified"/>
       <node ref="U6" pin="3" pinfunction="EN" pintype="unspecified"/>
       <node ref="U6" pin="6" pinfunction="ANODE" pintype="unspecified"/>
@@ -4286,6 +4453,7 @@
       <node ref="Q1" pin="2" pinfunction="S" pintype="unspecified"/>
       <node ref="Q1" pin="3" pinfunction="S" pintype="unspecified"/>
       <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="TP5" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U5" pin="3" pinfunction="EN" pintype="unspecified"/>
       <node ref="U5" pin="6" pinfunction="ANODE" pintype="unspecified"/>
     </net>
@@ -4305,6 +4473,7 @@
       <node ref="R6" pin="1" pintype="passive"/>
       <node ref="R8" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="SW2" pin="2" pinfunction="2" pintype="unspecified"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="3" pinfunction="EN" pintype="unspecified"/>
       <node ref="U10" pin="6" pinfunction="ANODE" pintype="unspecified"/>
       <node ref="U11" pin="7" pinfunction="BAT" pintype="unspecified"/>
@@ -4338,6 +4507,7 @@
       <node ref="R11" pin="1" pintype="passive"/>
       <node ref="R3" pin="1" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U11" pin="9" pinfunction="VCC" pintype="unspecified"/>
       <node ref="U5" pin="4" pinfunction="CATHODE" pintype="unspecified"/>
       <node ref="U6" pin="4" pinfunction="CATHODE" pintype="unspecified"/>
@@ -4363,6 +4533,7 @@
       <node ref="Q4" pin="7" pinfunction="D" pintype="unspecified"/>
       <node ref="Q4" pin="8" pinfunction="D" pintype="unspecified"/>
       <node ref="Q4" pin="9" pinfunction="D" pintype="unspecified"/>
+      <node ref="TP1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U10" pin="4" pinfunction="CATHODE" pintype="unspecified"/>
       <node ref="U7" pin="10" pinfunction="AVIN" pintype="unspecified"/>
       <node ref="U7" pin="11" pinfunction="PVIN" pintype="unspecified"/>
