@@ -1446,116 +1446,6 @@
 		)
 		(uuid "fa27d78d-b2a9-4762-a3f3-e3c37db14fec")
 	)
-	(text "DESIGN CONSIDERATIONS"
-		(exclude_from_sim no)
-		(at 25.654 266.192 0)
-		(effects
-			(font
-				(face "Arial")
-				(size 5 5)
-				(bold yes)
-				(color 53 60 207 1)
-			)
-			(justify left bottom)
-		)
-		(uuid "faea8a5f-3a8f-49cb-9832-569be941b06b")
-	)
-	(text_box "DESIGN NOTE:\nReverse polarity caution"
-		(exclude_from_sim no)
-		(at 96.52 266.192 0)
-		(size 30.48 12.573)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 250 236 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "14407e09-ee6c-4b22-86d1-36d73a33e664")
-	)
-	(text_box "DESIGN NOTE:\nUSB HUB for debug"
-		(exclude_from_sim no)
-		(at 61.595 266.446 0)
-		(size 30.48 12.319)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 255 165 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "1499d9a9-9f29-4929-8df7-74d84823ddfb")
-	)
-	(text_box "DESIGN NOTE:\nShared SPI"
-		(exclude_from_sim no)
-		(at 131.445 266.446 0)
-		(size 30.48 12.319)
-		(margins 2.25 2.25 2.25 2.25)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 255 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "1c311692-d683-4cdf-ac31-77bcdd4c4b39")
-	)
-	(text_box "LAYOUT NOTE:\nRF far from power\n"
-		(exclude_from_sim no)
-		(at 166.37 266.446 0)
-		(size 30.48 12.319)
-		(margins 2.25 2.25 2.25 2.25)
-		(stroke
-			(width 1.5)
-			(type solid)
-			(color 0 0 255 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(thickness 0.4)
-				(bold yes)
-				(color 0 0 255 1)
-			)
-			(justify left top)
-		)
-		(uuid "2efa106d-749e-4c2c-a05c-8429f99997c2")
-	)
 	(text_box "kibot_image_png_3d_viewer_angled_bottom"
 		(exclude_from_sim no)
 		(at 123.19 166.37 0)
@@ -1575,29 +1465,6 @@
 			(justify left top)
 		)
 		(uuid "33c3f6da-ba9e-4d58-9257-d85394a72b7b")
-	)
-	(text_box "DESIGN NOTE:\nNode hardware"
-		(exclude_from_sim no)
-		(at 26.67 266.446 0)
-		(size 30.48 12.319)
-		(margins 2 2 2 2)
-		(stroke
-			(width 1)
-			(type solid)
-			(color 200 200 200 1)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2 2)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "5018a9e1-9f76-429f-8094-85eee2236cda")
 	)
 	(text_box "kibot_image_png_3d_viewer_angled_top"
 		(exclude_from_sim no)
@@ -1769,52 +1636,7 @@
 		(instances
 			(project "IndustrialSense"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 299.72 302.26)
-		(size 35.56 5.08)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "82da9dbf-ba38-4d08-ba35-a220fa2963b1")
-		(property "Sheetname" "Block Diagram"
-			(at 299.72 301.2309 0)
-			(effects
-				(font
-					(face "Times New Roman")
-					(size 1.905 1.905)
-					(bold yes)
-					(color 0 0 0 1)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Block Diagram.kicad_sch"
-			(at 300.99 303.53 0)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "IndustrialSense"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "2")
+					(page "10")
 				)
 			)
 		)
@@ -1859,7 +1681,7 @@
 		(instances
 			(project "IndustrialSense"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
