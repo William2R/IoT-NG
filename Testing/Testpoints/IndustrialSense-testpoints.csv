@@ -1,1 +1,2 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
+TP1,VBUS,Power 12V,77.1800,-13.4000,top,SMT,TestPoint,tp05
