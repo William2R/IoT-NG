@@ -62,20 +62,20 @@
 
 	BOARD SIZE				46.900 × 90.000 mm
 	BOARD THICKNESS		1.200 mm
-	TRACE WIDTH			0.152 mm
+	TRACE WIDTH			0.150 mm
 	TRACE TO TRACE		-0.000 mm
-	MIN. HOLE (PTH)			0.250 mm
+	MIN. HOLE (PTH)			0.300 mm
 	MIN. HOLE (NPTH)		N/A mm
 	ANNULAR RING			0.140 mm
-	COPPER TO HOLE		0.254 mm
-	COPPER TO EDGE		0.250 mm
+	COPPER TO HOLE		0.175 mm
+	COPPER TO EDGE		0.500 mm
 	HOLE TO HOLE			0.254 mm
 
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">86cdf3f</textvar>
-    <textvar name="GIT_HASH_SCH">7dbfb0d</textvar>
+    <textvar name="GIT_HASH_PCB">4597082</textvar>
+    <textvar name="GIT_HASH_SCH">4597082</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">IoT NG</textvar>
     <textvar name="RELEASE_BODY_1.0.0"/>
@@ -2114,44 +2114,6 @@
       <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
       <tstamps>10024084-c24d-469a-8570-cb8144f664df</tstamps>
     </comp>
-    <comp ref="J1">
-      <value>Conn_01x06_Socket</value>
-      <footprint>Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x06, script generated</description>
-      <fields>
-        <field name="Footprint">Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x06, script generated</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
-      <property name="Sheetname" value="External Connectors"/>
-      <property name="Sheetfile" value="EC.kicad_sch"/>
-      <property name="Field2" value=""/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
-      <tstamps>d92220d4-8f6b-4d89-be1f-6788811e3302</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>Conn_01x06_Socket</value>
-      <footprint>Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <description>Generic connector, single row, 01x06, script generated</description>
-      <fields>
-        <field name="Footprint">Connector_JST:JST_ZH_B6B-ZR_1x06_P1.50mm_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x06, script generated</field>
-      </fields>
-      <libsource lib="Connector" part="Conn_01x06_Socket" description="Generic connector, single row, 01x06, script generated"/>
-      <property name="Sheetname" value="External Connectors"/>
-      <property name="Sheetfile" value="EC.kicad_sch"/>
-      <property name="Field2" value=""/>
-      <property name="ki_keywords" value="connector"/>
-      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
-      <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
-      <tstamps>6f31c433-ccbd-4376-80c4-05d3154d8abf</tstamps>
-    </comp>
     <comp ref="J5">
       <value>Conn_01x10_Socket</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
@@ -2189,6 +2151,42 @@
       <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
       <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
       <tstamps>7d37dbc9-608f-451c-8a7a-b968b1045684</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>B6B-ZR (LF)(SN)</value>
+      <footprint>easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</footprint>
+      <datasheet>https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</datasheet>
+      <fields>
+        <field name="LCSC Part">C157984</field>
+        <field name="Footprint">easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="easyeda2kicad" part="B6B-ZR(LF)(SN)" description=""/>
+      <property name="LCSC Part" value="C157984"/>
+      <property name="Sheetname" value="External Connectors"/>
+      <property name="Sheetfile" value="EC.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
+      <tstamps>5ff4f169-15a8-4e47-b2a8-ae1e2b1a3fa4</tstamps>
+    </comp>
+    <comp ref="U13">
+      <value>B6B-ZR (LF)(SN)</value>
+      <footprint>easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</footprint>
+      <datasheet>https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</datasheet>
+      <fields>
+        <field name="LCSC Part">C157984</field>
+        <field name="Footprint">easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="easyeda2kicad" part="B6B-ZR(LF)(SN)" description=""/>
+      <property name="LCSC Part" value="C157984"/>
+      <property name="Sheetname" value="External Connectors"/>
+      <property name="Sheetfile" value="EC.kicad_sch"/>
+      <property name="Field2" value=""/>
+      <sheetpath names="/Project Architecture/External Connectors/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/5ac2d668-0304-4bbe-8771-56c1c044638f/"/>
+      <tstamps>9691c4ca-7856-4301-afa2-7754d858f344</tstamps>
     </comp>
     <comp ref="C44">
       <value>100n</value>
@@ -2265,28 +2263,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="Connector" part="Conn_01x06_Socket">
-      <description>Generic connector, single row, 01x06, script generated</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x06_Socket</field>
-        <field name="Footprint"/>
-        <field name="Datasheet">~</field>
-        <field name="Description">Generic connector, single row, 01x06, script generated</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-        <pin num="6" name="Pin_6" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Connector" part="Conn_01x10_Socket">
       <description>Generic connector, single row, 01x10, script generated</description>
       <docs>~</docs>
@@ -2440,6 +2416,25 @@
         <pin num="2" name="2" type="unspecified"/>
         <pin num="3" name="3" type="unspecified"/>
         <pin num="4" name="4" type="unspecified"/>
+      </pins>
+    </libpart>
+    <libpart lib="easyeda2kicad" part="B6B-ZR(LF)(SN)">
+      <docs>https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">B6B-ZR (LF)(SN)</field>
+        <field name="Footprint">easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</field>
+        <field name="Datasheet">https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</field>
+        <field name="Description"/>
+        <field name="LCSC Part">C157984</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="unspecified"/>
+        <pin num="2" name="2" type="unspecified"/>
+        <pin num="3" name="3" type="unspecified"/>
+        <pin num="4" name="4" type="unspecified"/>
+        <pin num="5" name="5" type="unspecified"/>
+        <pin num="6" name="6" type="unspecified"/>
       </pins>
     </libpart>
     <libpart lib="easyeda2kicad" part="BV24C_C41419046">
@@ -3088,15 +3083,15 @@
   </libraries>
   <nets>
     <net code="1" name="/Project Architecture/External Connectors/CC1" class="Default">
-      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="Q6" pin="4" pinfunction="CC1" pintype="unspecified"/>
       <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U13" pin="5" pinfunction="5" pintype="unspecified"/>
       <node ref="USB1" pin="4" pinfunction="CC1" pintype="unspecified"/>
     </net>
     <net code="2" name="/Project Architecture/External Connectors/CC2" class="Default">
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q6" pin="5" pinfunction="CC2" pintype="unspecified"/>
       <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U13" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="USB1" pin="10" pinfunction="CC2" pintype="unspecified"/>
     </net>
     <net code="3" name="/Project Architecture/External Connectors/GPIO15" class="Default">
@@ -3108,19 +3103,19 @@
       <node ref="U1" pin="9" pinfunction="IO16" pintype="unspecified"/>
     </net>
     <net code="5" name="/Project Architecture/External Connectors/GPIO40B" class="Default">
-      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="U1" pin="33" pinfunction="IO40" pintype="unspecified"/>
+      <node ref="U2" pin="3" pinfunction="3" pintype="unspecified"/>
     </net>
     <net code="6" name="/Project Architecture/External Connectors/GPIO41G" class="Default">
-      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="U1" pin="34" pinfunction="IO41" pintype="unspecified"/>
+      <node ref="U2" pin="2" pinfunction="2" pintype="unspecified"/>
     </net>
     <net code="7" name="/Project Architecture/External Connectors/GPIO42R" class="Default">
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="U1" pin="35" pinfunction="IO42" pintype="unspecified"/>
+      <node ref="U2" pin="1" pinfunction="1" pintype="unspecified"/>
     </net>
     <net code="8" name="/Project Architecture/External Connectors/I2C_SCL" class="Default">
       <node ref="CN4" pin="3" pinfunction="3" pintype="unspecified"/>
@@ -3172,14 +3167,14 @@
     </net>
     <net code="18" name="/Project Architecture/External Connectors/USBCD+" class="Default">
       <node ref="D5" pin="3" pinfunction="I/O2" pintype="unspecified"/>
-      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="U13" pin="3" pinfunction="3" pintype="unspecified"/>
       <node ref="U14" pin="15" pinfunction="DPU" pintype="unspecified"/>
       <node ref="USB1" pin="6" pinfunction="DP1" pintype="unspecified"/>
       <node ref="USB1" pin="8" pinfunction="DP2" pintype="unspecified"/>
     </net>
     <net code="19" name="/Project Architecture/External Connectors/USBCD-" class="Default">
       <node ref="D5" pin="1" pinfunction="I/O1" pintype="unspecified"/>
-      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="U14" pin="14" pinfunction="DMU" pintype="unspecified"/>
       <node ref="USB1" pin="5" pinfunction="DN2" pintype="unspecified"/>
       <node ref="USB1" pin="7" pinfunction="DN1" pintype="unspecified"/>
@@ -3367,8 +3362,6 @@
       <node ref="D5" pin="2" pinfunction="VSS" pintype="unspecified"/>
       <node ref="DC1" pin="2" pinfunction="2" pintype="unspecified"/>
       <node ref="DC1" pin="3" pinfunction="3" pintype="unspecified"/>
-      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="J5" pin="10" pinfunction="Pin_10" pintype="passive"/>
       <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
@@ -3393,10 +3386,12 @@
       <node ref="U1" pin="41" pinfunction="GND" pintype="power_in"/>
       <node ref="U10" pin="2" pinfunction="GND" pintype="unspecified"/>
       <node ref="U11" pin="2" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U13" pin="1" pinfunction="1" pintype="unspecified"/>
       <node ref="U14" pin="25" pinfunction="GND" pintype="unspecified"/>
       <node ref="U15" pin="3" pinfunction="GND" pintype="unspecified"/>
       <node ref="U15" pin="5" pinfunction="EP" pintype="unspecified"/>
       <node ref="U17" pin="5" pinfunction="GND" pintype="unspecified"/>
+      <node ref="U2" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="U3" pin="17" pinfunction="EP" pintype="unspecified"/>
       <node ref="U3" pin="2" pinfunction="GND" pintype="unspecified"/>
       <node ref="U4" pin="1" pinfunction="CTG" pintype="unspecified"/>
@@ -3422,9 +3417,9 @@
     </net>
     <net code="59" name="KEY_PWR" class="Default">
       <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
       <node ref="R48" pin="1" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="unspecified"/>
+      <node ref="U2" pin="5" pinfunction="5" pintype="unspecified"/>
     </net>
     <net code="60" name="Net-(C25-Pad1)" class="Default">
       <node ref="C25" pin="1" pintype="passive"/>
@@ -3594,12 +3589,12 @@
       <node ref="C17" pin="2" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="2" pintype="input"/>
       <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="Q2" pin="1" pinfunction="S" pintype="unspecified"/>
       <node ref="Q2" pin="2" pinfunction="S" pintype="unspecified"/>
       <node ref="Q2" pin="3" pinfunction="S" pintype="unspecified"/>
       <node ref="R2" pin="1" pintype="passive"/>
       <node ref="R60" pin="1" pintype="passive"/>
+      <node ref="U13" pin="6" pinfunction="6" pintype="unspecified"/>
       <node ref="U6" pin="3" pinfunction="EN" pintype="unspecified"/>
       <node ref="U6" pin="6" pinfunction="ANODE" pintype="unspecified"/>
       <node ref="USB1" pin="11" pinfunction="VBUS" pintype="unspecified"/>
@@ -3624,7 +3619,6 @@
       <node ref="CN3" pin="4" pinfunction="4" pintype="unspecified"/>
       <node ref="CN3" pin="5" pinfunction="5" pintype="unspecified"/>
       <node ref="CN3" pin="6" pinfunction="6" pintype="unspecified"/>
-      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
       <node ref="Q4" pin="1" pinfunction="S" pintype="unspecified"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="unspecified"/>
       <node ref="Q4" pin="3" pinfunction="S" pintype="unspecified"/>
@@ -3635,6 +3629,7 @@
       <node ref="U10" pin="3" pinfunction="EN" pintype="unspecified"/>
       <node ref="U10" pin="6" pinfunction="ANODE" pintype="unspecified"/>
       <node ref="U11" pin="7" pinfunction="BAT" pintype="unspecified"/>
+      <node ref="U2" pin="6" pinfunction="6" pintype="unspecified"/>
       <node ref="U4" pin="2" pinfunction="CELL" pintype="unspecified"/>
       <node ref="U9" pin="1" pinfunction="VIN" pintype="unspecified"/>
       <node ref="U9" pin="3" pinfunction="CE" pintype="unspecified"/>
