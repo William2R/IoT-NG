@@ -68,13 +68,13 @@
 	MIN. HOLE (NPTH)		N/A mm
 	ANNULAR RING			0.140 mm
 	COPPER TO HOLE		0.175 mm
-	COPPER TO EDGE		0.500 mm
+	COPPER TO EDGE		0.000 mm
 	HOLE TO HOLE			0.254 mm
 
 11)	REFER TO IMPEDANCE TABLE FOR IMPEDANCE CONTROL REQUIREMENTS.
 
 12)	CONFIRM SPACE WIDTHS AND SPACINGS.</textvar>
-    <textvar name="GIT_HASH_PCB">46f78fc</textvar>
+    <textvar name="GIT_HASH_PCB">30c3601</textvar>
     <textvar name="GIT_HASH_SCH">3a63ce1</textvar>
     <textvar name="GIT_URL">https://github.com/nguyen-v/KDT_Hierarchical_KiBot</textvar>
     <textvar name="PROJECT_NAME">IoT NG</textvar>
@@ -83,8 +83,8 @@
     <textvar name="RELEASE_BODY_1.0.2"/>
     <textvar name="RELEASE_BODY_1.1.0"/>
     <textvar name="RELEASE_BODY_UNRELEASED">Version Unreleased not found.</textvar>
-    <textvar name="RELEASE_DATE">27-Feb-2026</textvar>
-    <textvar name="RELEASE_DATE_NUM">2026-02-27</textvar>
+    <textvar name="RELEASE_DATE">28-Feb-2026</textvar>
+    <textvar name="RELEASE_DATE_NUM">2026-02-28</textvar>
     <textvar name="RELEASE_TITLE_1.0.0">Version 1.0.0 not found.</textvar>
     <textvar name="RELEASE_TITLE_1.0.1"/>
     <textvar name="RELEASE_TITLE_1.0.2"/>
@@ -315,7 +315,7 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>47uF</value>
+      <value>47u</value>
       <footprint>easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD</footprint>
       <datasheet>https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_47uF-50V-20_C72523.html</datasheet>
       <fields>
@@ -323,6 +323,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C72523</field>
         <field name="Footprint">easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_47uF-50V-20_C72523.html</field>
         <field name="Description"/>
@@ -332,6 +333,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C72523"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -346,6 +348,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C394395</field>
         <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -354,6 +357,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C394395"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -370,6 +374,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -378,6 +383,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -394,6 +400,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C394395</field>
         <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -402,6 +409,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C394395"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -410,7 +418,7 @@
       <tstamps>4466f72e-8226-4ba3-9c5e-9c5c59e7e5a2</tstamps>
     </comp>
     <comp ref="C7">
-      <value>10u</value>
+      <value>47u</value>
       <footprint>easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD</footprint>
       <datasheet>https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_47uF-50V-20_C72523.html</datasheet>
       <fields>
@@ -418,6 +426,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C72523</field>
         <field name="Footprint">easyeda2kicad:CAP-SMD_BD6.3-L6.6-W6.6-LS7.6-FD</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Aluminum-Electrolytic-Capacitors-SMD_47uF-50V-20_C72523.html</field>
         <field name="Description"/>
@@ -427,6 +436,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C72523"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -441,6 +451,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77071</field>
         <field name="Footprint">Capacitor_SMD:C_0805_2012Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -449,6 +460,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77071"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -465,6 +477,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77100</field>
         <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -473,6 +486,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77100"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -489,6 +503,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -497,6 +512,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -513,6 +529,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C1613</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -521,6 +538,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C1613"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -537,6 +555,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -545,6 +564,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -561,6 +581,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -569,6 +590,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -585,6 +607,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -593,6 +616,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -609,6 +633,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -617,6 +642,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -633,6 +659,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77100</field>
         <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -641,6 +668,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77100"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -657,6 +685,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -665,6 +694,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -681,6 +711,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77100</field>
         <field name="Footprint">Capacitor_SMD:C_1210_3225Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -689,6 +720,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77100"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -705,6 +737,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -713,6 +746,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -729,6 +763,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C47129</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -737,6 +772,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C47129"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -753,6 +789,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C1518208</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -761,6 +798,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C1518208"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -777,6 +815,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C1518208</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -785,6 +824,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C1518208"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -801,6 +841,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C1518208</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -809,6 +850,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C1518208"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -825,6 +867,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C50645</field>
         <field name="Footprint">Diode_SMD:D_SMA</field>
         <field name="Datasheet">https://www.vishay.com/docs/88748/ss22.pdf</field>
         <field name="Description">40V 2A Schottky Diode, SMA</field>
@@ -833,6 +876,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C50645"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="diode Schottky"/>
@@ -849,6 +893,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C50645</field>
         <field name="Footprint">Diode_SMD:D_SMA</field>
         <field name="Datasheet">https://www.vishay.com/docs/88748/ss22.pdf</field>
         <field name="Description">40V 2A Schottky Diode, SMA</field>
@@ -857,6 +902,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C50645"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="diode Schottky"/>
@@ -872,6 +918,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C41419046</field>
         <field name="Footprint">easyeda2kicad:SOD-323_L1.7-W1.3-LS2.6-BI</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -881,6 +928,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C41419046"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -895,6 +943,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C460064</field>
         <field name="Footprint">easyeda2kicad:SOT-26_L3.0-W1.6-P0.95-LS2.8-BL</field>
         <field name="Datasheet">https://lcsc.com/product-detail/TVS_Diodes-Incorporated-DT1042-04SO-7_C460064.html</field>
         <field name="Description"/>
@@ -904,6 +953,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C460064"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -918,6 +968,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C191023</field>
         <field name="Footprint">Diode_SMD:D_SOD-323</field>
         <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</field>
         <field name="Description">40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323</field>
@@ -926,6 +977,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C191023"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="diode Schottky"/>
@@ -942,6 +994,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C191023</field>
         <field name="Footprint">Diode_SMD:D_SOD-323</field>
         <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</field>
         <field name="Description">40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323</field>
@@ -950,6 +1003,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C191023"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="diode Schottky"/>
@@ -966,6 +1020,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C191023</field>
         <field name="Footprint">Diode_SMD:D_SOD-323</field>
         <field name="Datasheet">https://datasheet.lcsc.com/lcsc/2204281430_Guangdong-Hottech-1N5819WS_C191023.pdf</field>
         <field name="Description">40V 600mV@1A 1A SOD-323 Schottky Barrier Diodes, SOD-323</field>
@@ -974,6 +1029,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C191023"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="diode Schottky"/>
@@ -991,6 +1047,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2290</field>
         <field name="Footprint">LED_SMD:LED_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Light emitting diode</field>
@@ -1000,6 +1057,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2290"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="LED diode"/>
@@ -1015,6 +1073,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C5366013</field>
         <field name="Footprint">easyeda2kicad:IND-SMD_L6.6-W6.4</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1024,6 +1083,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C5366013"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1037,6 +1097,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C727488</field>
         <field name="Footprint">easyeda2kicad:POWERPAK-1212-8_L3.3-W3.1-P0.65-BL-EP</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1046,6 +1107,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C727488"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1059,6 +1121,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C727488</field>
         <field name="Footprint">easyeda2kicad:POWERPAK-1212-8_L3.3-W3.1-P0.65-BL-EP</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1068,6 +1131,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C727488"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1081,6 +1145,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C727488</field>
         <field name="Footprint">easyeda2kicad:POWERPAK-1212-8_L3.3-W3.1-P0.65-BL-EP</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1090,6 +1155,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C727488"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1103,6 +1169,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C727488</field>
         <field name="Footprint">easyeda2kicad:POWERPAK-1212-8_L3.3-W3.1-P0.65-BL-EP</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1112,6 +1179,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C727488"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1126,6 +1194,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C709930</field>
         <field name="Footprint">easyeda2kicad:SO-8_L4.9-W3.9-P1.27-LS5.9-BL</field>
         <field name="Datasheet">https://lcsc.com/product-detail/MOSFET_VBsemi-Elec-CEM4435A_C709930.html</field>
         <field name="Description"/>
@@ -1135,6 +1204,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C709930"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1148,6 +1218,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C5125736</field>
         <field name="Footprint">easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL-2</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1157,6 +1228,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C5125736"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1171,6 +1243,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C20526</field>
         <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
         <field name="Datasheet">https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf</field>
         <field name="Description">0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23</field>
@@ -1179,6 +1252,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C20526"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="NPN Transistor"/>
@@ -1195,6 +1269,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C26083</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1203,6 +1278,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C26083"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1219,6 +1295,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C26083</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1227,6 +1304,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C26083"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1243,6 +1321,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C26083</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1251,6 +1330,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C26083"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1267,6 +1347,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25905</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1275,6 +1356,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25905"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1291,6 +1373,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25905</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1299,6 +1382,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25905"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1315,6 +1399,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C26083</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1323,6 +1408,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C26083"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1339,6 +1425,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25079</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1347,6 +1434,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25079"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1362,6 +1450,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C459687</field>
         <field name="Footprint">easyeda2kicad:RES-SMD_L6.4-W3.2-R2512</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1371,6 +1460,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C459687"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1385,6 +1475,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C67558</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1393,6 +1484,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C67558"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1409,6 +1501,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25741</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1417,6 +1510,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25741"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1433,6 +1527,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C11702</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1441,6 +1536,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C11702"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1457,6 +1553,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25790</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1465,6 +1562,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25790"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1481,6 +1579,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C67239</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1489,6 +1588,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C67239"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1505,6 +1605,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25819</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1513,6 +1614,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1529,6 +1631,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25819</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1537,6 +1640,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25819"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1553,6 +1657,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25803</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1561,6 +1666,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25803"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1577,6 +1683,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C22807</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1585,6 +1692,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C22807"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1601,6 +1709,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25803</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1609,6 +1718,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25803"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1625,6 +1735,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25792</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1633,6 +1744,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25792"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1649,6 +1761,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C11702</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -1657,6 +1770,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C11702"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -1673,6 +1787,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C115357</field>
         <field name="Footprint">easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRKAEE020_3-4-2-1-57N_C115357.html</field>
         <field name="Description"/>
@@ -1682,6 +1797,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C115357"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1875,6 +1991,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C18185545</field>
         <field name="Footprint">easyeda2kicad:WSON-8_L2.0-W2.0-P0.50-BL-EP0.9</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1884,6 +2001,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C18185545"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1897,6 +2015,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2941042</field>
         <field name="Footprint">easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1906,6 +2025,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2941042"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1919,6 +2039,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2941042</field>
         <field name="Footprint">easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1928,6 +2049,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2941042"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1941,6 +2063,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2070674</field>
         <field name="Footprint">easyeda2kicad:VQFN-16_L3.0-W3.0-P0.50-TL-EP</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1950,6 +2073,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2070674"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1963,6 +2087,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2941042</field>
         <field name="Footprint">easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -1972,6 +2097,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2941042"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -1986,6 +2112,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C216624</field>
         <field name="Footprint">easyeda2kicad:SOT-25-5_L3.0-W1.8-P0.95-LS3.0-BR</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Others_Torex-Semicon-XC6209F332MR-G_C216624.html</field>
         <field name="Description"/>
@@ -1995,6 +2122,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C216624"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -2008,6 +2136,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2941042</field>
         <field name="Footprint">easyeda2kicad:SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2017,6 +2146,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2941042"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -2031,6 +2161,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C150555</field>
         <field name="Footprint">easyeda2kicad:SSOP-10_L4.9-W3.9-P1.00-LS6.0-BL</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Others_ShangHai-Consonance-Elec-CN3795_C150555.html</field>
         <field name="Description"/>
@@ -2040,6 +2171,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C150555"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -2053,6 +2185,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C122469</field>
         <field name="Footprint">easyeda2kicad:IND-SMD_L4.0-W4.0_XAL4030-332MEC</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2062,6 +2195,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C122469"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -2075,6 +2209,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2765186</field>
         <field name="Footprint">easyeda2kicad:USB-C-SMD_TYPE-C-6PIN-2MD-073</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2084,6 +2219,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2765186"/>
       <property name="Sheetname" value="Power Management"/>
       <property name="Sheetfile" value="PM.kicad_sch"/>
       <sheetpath names="/Project Architecture/Power Management/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/d1d6a0f9-7e71-4238-818f-a35509de879f/"/>
@@ -2098,6 +2234,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C14663</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2106,6 +2243,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2122,6 +2260,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C96446</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2130,6 +2269,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2146,6 +2286,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C15849</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2154,6 +2295,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C15849"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2170,6 +2312,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C15849</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2178,6 +2321,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C15849"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2194,6 +2338,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C14663</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2202,6 +2347,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2218,6 +2364,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C131781</field>
         <field name="Footprint">easyeda2kicad:SOT-363_L2.0-W1.3-P0.65-LS2.1-BR</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Transistors-NPN-PNP_LMBT3904DW1T1G_C131781.html</field>
         <field name="Description"/>
@@ -2227,6 +2374,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C131781"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2241,6 +2389,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25804</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2249,6 +2398,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2265,6 +2415,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25804</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2273,6 +2424,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2289,6 +2441,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25804</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2297,6 +2450,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2313,6 +2467,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25804</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2321,6 +2476,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25804"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2337,6 +2493,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C115357</field>
         <field name="Footprint">easyeda2kicad:SW-SMD_L3.9-W3.0-P4.45</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Tactile-Switches_ALPS_SKRKAEE020_3-4-2-1-57N_C115357.html</field>
         <field name="Description"/>
@@ -2346,6 +2503,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C115357"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2359,6 +2517,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2980298</field>
         <field name="Footprint">easyeda2kicad:WIRELM-SMD_ESP32-S3-WROOM-1U</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2368,6 +2527,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2980298"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2381,6 +2541,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2846043</field>
         <field name="Footprint">easyeda2kicad:TQFN-16_L3.0-W3.0-P0.50-BL-EP1.7</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2390,6 +2551,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2846043"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2403,6 +2565,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2066649</field>
         <field name="Footprint">easyeda2kicad:X2SON-4_L1.0-W1.0-P0.65-TL-EP</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2412,6 +2575,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2066649"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="MCU.kicad_sch"/>
       <sheetpath names="/Project Architecture/MCU/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/f06537ee-772d-44d3-8c50-e0ba41038c9c/"/>
@@ -2426,6 +2590,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C381083</field>
         <field name="Footprint">easyeda2kicad:TF-SMD_XKTF-0803-0</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Connector-Card-Sockets_XKB-Enterprise-XKTF-0803-0_C381083.html</field>
         <field name="Description"/>
@@ -2435,6 +2600,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C381083"/>
       <property name="Sheetname" value="SD CARD"/>
       <property name="Sheetfile" value="SDCARD.kicad_sch"/>
       <sheetpath names="/Project Architecture/SD CARD/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a/"/>
@@ -2449,6 +2615,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25803</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2457,6 +2624,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25803"/>
       <property name="Sheetname" value="SD CARD"/>
       <property name="Sheetfile" value="SDCARD.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2473,6 +2641,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2481,6 +2650,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2497,6 +2667,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2505,6 +2676,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2521,6 +2693,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C404012</field>
         <field name="Footprint">easyeda2kicad:SOT-23_L2.9-W1.3-P1.90-LS2.4-BR</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Diodes-ESD_BOURNS-CDSOT23-SM712_C404012.html</field>
         <field name="Description"/>
@@ -2530,6 +2703,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C404012"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <sheetpath names="/Project Architecture/RS485/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b3de0b29-7133-4493-9e0a-b16134e0b106/"/>
@@ -2544,6 +2718,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25744</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2552,6 +2727,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2568,6 +2744,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C25744</field>
         <field name="Footprint">Resistor_SMD:R_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2576,6 +2753,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C25744"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2592,6 +2770,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C313648</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2600,6 +2779,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C313648"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2616,6 +2796,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C313648</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2624,6 +2805,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C313648"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2640,6 +2822,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C22787</field>
         <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Resistor, US symbol</field>
@@ -2648,6 +2831,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C22787"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <property name="ki_keywords" value="R res resistor"/>
@@ -2663,6 +2847,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C5215918</field>
         <field name="Footprint">easyeda2kicad:SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2672,6 +2857,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C5215918"/>
       <property name="Sheetname" value="RS485"/>
       <property name="Sheetfile" value="RS485.kicad_sch"/>
       <sheetpath names="/Project Architecture/RS485/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/b3de0b29-7133-4493-9e0a-b16134e0b106/"/>
@@ -2686,6 +2872,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C96446</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2694,6 +2881,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C96446"/>
       <property name="Sheetname" value="LoRa"/>
       <property name="Sheetfile" value="LoRa.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2710,6 +2898,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C14663</field>
         <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -2718,6 +2907,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C14663"/>
       <property name="Sheetname" value="LoRa"/>
       <property name="Sheetfile" value="LoRa.kicad_sch"/>
       <property name="ki_keywords" value="cap capacitor"/>
@@ -2734,6 +2924,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C10662</field>
         <field name="Footprint">easyeda2kicad:D0402-BI</field>
         <field name="Datasheet">https://lcsc.com/product-detail/TVS_TE-Connectivity_PESD0402-140_PESD0402-140_C10662.html</field>
         <field name="Description"/>
@@ -2743,6 +2934,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C10662"/>
       <property name="Sheetname" value="LoRa"/>
       <property name="Sheetfile" value="LoRa.kicad_sch"/>
       <sheetpath names="/Project Architecture/LoRa/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/a05720f2-a431-4e27-8c6f-664c8aa917f0/"/>
@@ -2756,6 +2948,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C2764087</field>
         <field name="Footprint">easyeda2kicad:WIRELM-SMD_RA-01SH</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2765,6 +2958,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C2764087"/>
       <property name="Sheetname" value="LoRa"/>
       <property name="Sheetfile" value="LoRa.kicad_sch"/>
       <sheetpath names="/Project Architecture/LoRa/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/a05720f2-a431-4e27-8c6f-664c8aa917f0/"/>
@@ -2778,6 +2972,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C22418213</field>
         <field name="Footprint">easyeda2kicad:IPEX-SMD_3P-L2.6-W2.6-LS3.0</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -2787,6 +2982,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C22418213"/>
       <property name="Sheetname" value="LoRa"/>
       <property name="Sheetfile" value="LoRa.kicad_sch"/>
       <sheetpath names="/Project Architecture/LoRa/" tstamps="/c5103ceb-5325-4a84-a025-9638a412984e/a05720f2-a431-4e27-8c6f-664c8aa917f0/"/>
@@ -2801,6 +2997,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C157997</field>
         <field name="Footprint">easyeda2kicad:CONN-TH_B4B-ZR-LF-SN</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Connectors_JST_B4B-ZR-LF-SN_B3P5-VH-LF-SN_C157997.html</field>
         <field name="Description"/>
@@ -2810,6 +3007,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C157997"/>
       <property name="Sheetname" value="External Connectors"/>
       <property name="Sheetfile" value="EC.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2825,6 +3023,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C722928</field>
         <field name="Footprint">easyeda2kicad:CONN-SMD_ZH1.5-6P-LT</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_CAX-ZH1-5-6P-LT_C722928.html</field>
         <field name="Description"/>
@@ -2834,6 +3033,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C722928"/>
       <property name="Sheetname" value="External Connectors"/>
       <property name="Sheetfile" value="EC.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2849,6 +3049,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C157997</field>
         <field name="Footprint">easyeda2kicad:CONN-TH_B4B-ZR-LF-SN</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Connectors_JST_B4B-ZR-LF-SN_B3P5-VH-LF-SN_C157997.html</field>
         <field name="Description"/>
@@ -2858,6 +3059,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C157997"/>
       <property name="Sheetname" value="External Connectors"/>
       <property name="Sheetfile" value="EC.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2873,6 +3075,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C319134</field>
         <field name="Footprint">easyeda2kicad:DC-IN-TH_DC-005-5A-2.0-SMT</field>
         <field name="Datasheet">https://lcsc.com/product-detail/Power-Connectors_XKB-Enterprise-DC-005-5A-2-0-SMT_C319134.html</field>
         <field name="Description"/>
@@ -2882,6 +3085,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C319134"/>
       <property name="Sheetname" value="External Connectors"/>
       <property name="Sheetfile" value="EC.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2897,6 +3101,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C225520</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x10, script generated</field>
@@ -2905,6 +3110,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C225520"/>
       <property name="Sheetname" value="External Connectors"/>
       <property name="Sheetfile" value="EC.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2922,6 +3128,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C225520</field>
         <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</field>
         <field name="Datasheet">~</field>
         <field name="Description">Generic connector, single row, 01x10, script generated</field>
@@ -2930,6 +3137,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C225520"/>
       <property name="Sheetname" value="External Connectors"/>
       <property name="Sheetfile" value="EC.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2947,6 +3155,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C157984</field>
         <field name="Footprint">easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</field>
         <field name="Datasheet">https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</field>
         <field name="Description"/>
@@ -2956,6 +3165,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C157984"/>
       <property name="Sheetname" value="External Connectors"/>
       <property name="Sheetfile" value="EC.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2971,6 +3181,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C157984</field>
         <field name="Footprint">easyeda2kicad:CONN-TH-6P-P1.50_B6B-ZR-LF-SN</field>
         <field name="Datasheet">https://lcsc.com/product-detail/_JST-Sales-America__JST-Sales-America-ZHseries-socket-1-6P-pitch1-5mm_C157984.html</field>
         <field name="Description"/>
@@ -2980,6 +3191,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C157984"/>
       <property name="Sheetname" value="External Connectors"/>
       <property name="Sheetfile" value="EC.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -2995,6 +3207,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77020</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -3003,6 +3216,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77020"/>
       <property name="Sheetname" value="HUB"/>
       <property name="Sheetfile" value="HUB.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -3020,6 +3234,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C77000</field>
         <field name="Footprint">Capacitor_SMD:C_0402_1005Metric</field>
         <field name="Datasheet">~</field>
         <field name="Description">Unpolarized capacitor</field>
@@ -3028,6 +3243,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C77000"/>
       <property name="Sheetname" value="HUB"/>
       <property name="Sheetfile" value="HUB.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -3044,6 +3260,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C5187527</field>
         <field name="Footprint">easyeda2kicad:QFN-24_L4.0-W4.0-P0.50-BL-EP2.8</field>
         <field name="Datasheet"/>
         <field name="Description"/>
@@ -3053,6 +3270,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C5187527"/>
       <property name="Sheetname" value="HUB"/>
       <property name="Sheetfile" value="HUB.kicad_sch"/>
       <property name="Field2" value=""/>
@@ -3068,6 +3286,7 @@
         <field name="Config"/>
         <field name="Manufacturer"/>
         <field name="Manufacturer Part Number"/>
+        <field name="LCSC">C9002</field>
         <field name="Footprint">easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL</field>
         <field name="Datasheet">https://lcsc.com/product-detail/SMD-Crystals_YSX321SL-12MHZ-20PF-10PPM-40-85_C9002.html</field>
         <field name="Description"/>
@@ -3077,6 +3296,7 @@
       <property name="Config" value=""/>
       <property name="Manufacturer" value=""/>
       <property name="Manufacturer Part Number" value=""/>
+      <property name="LCSC" value="C9002"/>
       <property name="Sheetname" value="HUB"/>
       <property name="Sheetfile" value="HUB.kicad_sch"/>
       <property name="Field2" value=""/>

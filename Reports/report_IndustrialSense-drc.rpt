@@ -1,5 +1,5 @@
 ** Drc report for IndustrialSense.kicad_pcb **
-** Created on 2026-02-28T00:19:38+0000 **
+** Created on 2026-02-28T06:46:48+0000 **
 
 ** Found 309 DRC violations **
 [annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual -0.0043 mm)
@@ -24,7 +24,7 @@
     @(150.71 mm, 129.62 mm): Pad 12 [GND] of USB1 on L1
 [connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.1270 mm; actual 0.1150 mm) (L1)
     ; warning
-    @(133.85 mm, 73.61 mm): Track [/Project Architecture/External Connectors/I2C_SDA] on L1, length 1.5700 mm
+    @(133.85 mm, 73.61 mm): Pad 8 [/Project Architecture/External Connectors/I2C_SDA] of U4 on L1
     @(133.675 mm, 73.605 mm): Track [/Project Architecture/External Connectors/I2C_SDA] on L1, length 0.0071 mm
 [connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.1270 mm; actual 0.0258 mm) (L1)
     ; warning
@@ -1071,6 +1071,36 @@
 
 ** Found 0 unconnected pads **
 
-** Found 0 Footprint errors **
+** Found 10 Footprint errors **
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(155.68 mm, 129.2 mm): Footprint TP1
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(138.45 mm, 78.43 mm): Footprint TP2
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(148.9 mm, 100.27 mm): Footprint TP3
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(154.84 mm, 89.05 mm): Footprint TP4
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(127.04 mm, 119.33 mm): Footprint TP5
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(134.57 mm, 115.67 mm): Footprint TP6
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(141.18 mm, 119.4 mm): Footprint TP7
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(167.07 mm, 98.49 mm): Footprint TP8
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(167.1 mm, 91.1 mm): Footprint TP9
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Exclude from bill of materials' settings differ.
+    ; warning
+    @(163.57 mm, 94.07 mm): Footprint TP10
 
 ** End of Report **

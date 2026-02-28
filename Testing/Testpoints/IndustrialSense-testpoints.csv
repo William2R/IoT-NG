@@ -1,11 +1,11 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
-TP1,V_MAIN,VMAIN,41.1700,18.0000,top,SMT,TestPoint,tp05
-TP2,3V3_FG,Default,23.9400,68.7700,top,SMT,TestPoint,tp05
-TP3,V_BAT,BATTERY,34.3900,46.9300,top,SMT,TestPoint,tp05
-TP4,3V3_MCU,Power 3V3,40.3300,58.1500,top,SMT,TestPoint,tp05
-TP5,VSUN,VSUN,12.5300,27.8700,top,SMT,TestPoint,tp05
-TP6,V_CHRG,V_IN,20.0600,31.5300,top,SMT,TestPoint,tp05
-TP7,VBUS,Power 12V,26.6700,27.8000,top,SMT,TestPoint,tp05
-TP8,/Project Architecture/MCU/PWR_KEY,"GPIO,Default",52.5600,48.7100,top,SMT,TestPoint,tp05
-TP9,/Project Architecture/Power Management/PWR_SEL,"GPIO,Default",52.5900,56.1000,top,SMT,TestPoint,tp05
-TP10,/Project Architecture/Power Management/PWR_EN,"GPIO,Default",49.0600,53.1300,top,SMT,TestPoint,tp05
+TP1,V_MAIN,VMAIN,41.1700,18.0000,top,,TestPoint,tp05
+TP2,3V3_FG,Default,23.9400,68.7700,top,,TestPoint,tp05
+TP3,V_BAT,BATTERY,34.3900,46.9300,top,,TestPoint,tp05
+TP4,3V3_MCU,Power 3V3,40.3300,58.1500,top,,TestPoint,tp05
+TP5,VSUN,VSUN,12.5300,27.8700,top,,TestPoint,tp05
+TP6,V_CHRG,V_IN,20.0600,31.5300,top,,TestPoint,tp05
+TP7,VBUS,Power 12V,26.6700,27.8000,top,,TestPoint,tp05
+TP8,/Project Architecture/MCU/PWR_KEY,"GPIO,Default",52.5600,48.7100,top,,TestPoint,tp05
+TP9,/Project Architecture/Power Management/PWR_SEL,"GPIO,Default",52.5900,56.1000,top,,TestPoint,tp05
+TP10,/Project Architecture/Power Management/PWR_EN,"GPIO,Default",49.0600,53.1300,top,,TestPoint,tp05
