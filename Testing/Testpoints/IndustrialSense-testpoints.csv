@@ -1,7 +1,7 @@
 Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
 TP1,V_MAIN,VMAIN,41.1700,18.0000,top,SMT,TestPoint,tp05
 TP2,3V3_FG,Default,23.9400,68.7700,top,SMT,TestPoint,tp05
-TP3,V_BAT,BATTERY,18.3000,61.2000,top,SMT,TestPoint,tp05
+TP3,V_BAT,BATTERY,34.3900,46.9300,top,SMT,TestPoint,tp05
 TP4,3V3_MCU,Power 3V3,40.3300,58.1500,top,SMT,TestPoint,tp05
 TP5,VSUN,VSUN,12.5300,27.8700,top,SMT,TestPoint,tp05
 TP6,V_CHRG,V_IN,20.0600,31.5300,top,SMT,TestPoint,tp05

@@ -1,0 +1,1076 @@
+** Drc report for IndustrialSense.kicad_pcb **
+** Created on 2026-02-28T00:19:38+0000 **
+
+** Found 309 DRC violations **
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual -0.0043 mm)
+    ; error
+    @(132.08 mm, 131.99 mm): PTH pad [<no net>] of DC1
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual -0.0048 mm)
+    ; error
+    @(132.08 mm, 127.49 mm): PTH pad [<no net>] of DC1
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual -0.0030 mm)
+    ; error
+    @(144.62 mm, 130.7 mm): PTH pad [<no net>] of USB1
+[annular_width]: Annular width (board setup constraints min annular width 0.1500 mm; actual -0.0030 mm)
+    ; error
+    @(150.4 mm, 130.7 mm): PTH pad [<no net>] of USB1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1812 mm)
+    ; error
+    @(144.62 mm, 130.7 mm): PTH pad [<no net>] of USB1
+    @(144.31 mm, 129.62 mm): Pad 1 [GND] of USB1 on L1
+[clearance]: Clearance violation (netclass 'GND' clearance 0.2000 mm; actual 0.1812 mm)
+    ; error
+    @(150.4 mm, 130.7 mm): PTH pad [<no net>] of USB1
+    @(150.71 mm, 129.62 mm): Pad 12 [GND] of USB1 on L1
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.1270 mm; actual 0.1150 mm) (L1)
+    ; warning
+    @(133.85 mm, 73.61 mm): Track [/Project Architecture/External Connectors/I2C_SDA] on L1, length 1.5700 mm
+    @(133.675 mm, 73.605 mm): Track [/Project Architecture/External Connectors/I2C_SDA] on L1, length 0.0071 mm
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.1270 mm; actual 0.0258 mm) (L1)
+    ; warning
+    @(119.15 mm, 42.69 mm): Zone [GND] on L1, priority 0
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    ; warning
+    @(132.08 mm, 131.99 mm): PTH pad [<no net>] of DC1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    ; warning
+    @(132.08 mm, 127.49 mm): PTH pad [<no net>] of DC1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    ; warning
+    @(144.62 mm, 130.7 mm): PTH pad [<no net>] of USB1
+[padstack]: Padstack is questionable (PTH pad hole leaves no copper)
+    ; warning
+    @(150.4 mm, 130.7 mm): PTH pad [<no net>] of USB1
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(163.47 mm, 116.57 mm): Footprint R18
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(153.65 mm, 129.11 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'C_1210_3225Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(158.33 mm, 101.16 mm): Footprint C14
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(163.45 mm, 102.2625 mm): Footprint R49
+[lib_footprint_mismatch]: Footprint 'C_1210_3225Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(153.65 mm, 103.01 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(147.86 mm, 70.58 mm): Footprint R54
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(133.69 mm, 76.81 mm): Footprint C39
+[lib_footprint_mismatch]: Footprint 'C_1210_3225Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(158.33 mm, 104.43 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'SOT-23' does not match copy in library 'Package_TO_SOT_SMD'.
+    ; warning
+    @(164.3 mm, 99.0 mm): Footprint Q13
+[lib_footprint_mismatch]: Footprint 'C_1210_3225Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(147.8 mm, 96.9 mm): Footprint C23
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(141.08 mm, 103.54 mm): Footprint R12
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(156.57 mm, 118.63 mm): Footprint R19
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(151.88 mm, 84.38 mm): Footprint C44
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(163.95 mm, 119.29 mm): Footprint C26
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(133.07 mm, 106.36 mm): Footprint R11
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(126.3 mm, 103.4 mm): Footprint C22
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(131.88 mm, 118.8325 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(164.21 mm, 52.25 mm): Footprint C43
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(151.52 mm, 125.3325 mm): Footprint R60
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(155.09 mm, 80.51 mm): Footprint R50
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(142.01 mm, 77.64 mm): Footprint C48
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(159.71 mm, 96.11 mm): Footprint C13
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(164.4 mm, 92.8 mm): Footprint R55
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(164.4 mm, 91.3 mm): Footprint R56
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(149.1 mm, 107.1 mm): Footprint R6
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x05_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(126.36 mm, 60.12 mm): Footprint J6
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(164.43 mm, 96.16 mm): Footprint R47
+[lib_footprint_mismatch]: Footprint 'C_1210_3225Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(128.48 mm, 106.34 mm): Footprint C21
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(141.13 mm, 106.22 mm): Footprint C25
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(141.08 mm, 104.54 mm): Footprint R13
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(163.9475 mm, 118.24 mm): Footprint C12
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(141.35 mm, 129.11 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(143.53 mm, 77.64 mm): Footprint C46
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(148.02 mm, 74.99 mm): Footprint R53
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(153.12 mm, 97.83 mm): Footprint C16
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(137.93 mm, 72.66 mm): Footprint R58
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(166.08 mm, 94.6 mm): Footprint R48
+[lib_footprint_mismatch]: Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'.
+    ; warning
+    @(135.98 mm, 109.54 mm): Footprint D16
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(134.0 mm, 120.7 mm): Footprint C18
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(137.93 mm, 71.15 mm): Footprint R57
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(146.32 mm, 111.87 mm): Footprint C19
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(128.81 mm, 52.76 mm): Footprint C41
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(133.58 mm, 103.85 mm): Footprint R9
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(128.81 mm, 54.41 mm): Footprint C40
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(159.82 mm, 127.025 mm): Footprint R69
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(140.07 mm, 114.45 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(140.2 mm, 71.9 mm): Footprint C47
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(160.58 mm, 124.525 mm): Footprint R67
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(155.04 mm, 100.89 mm): Footprint C15
+[lib_footprint_mismatch]: Footprint 'R_0603_1608Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(159.08 mm, 124.525 mm): Footprint R68
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(164.21 mm, 50.72 mm): Footprint C42
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(142.1 mm, 115.42 mm): Footprint C17
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(141.1 mm, 107.22 mm): Footprint R7
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(149.88 mm, 113.51 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(138.08 mm, 109.54 mm): Footprint R10
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(152.88 mm, 84.38 mm): Footprint C45
+[lib_footprint_mismatch]: Footprint 'PinHeader_2x05_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'.
+    ; warning
+    @(167.06 mm, 125.22 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(133.08 mm, 105.34 mm): Footprint C24
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(137.45 mm, 76.81 mm): Footprint C38
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(132.46 mm, 78.89 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'.
+    ; warning
+    @(152.03 mm, 123.54 mm): Footprint R59
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(147.1 mm, 105.0275 mm): Footprint C20
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'.
+    ; warning
+    @(153.09 mm, 126.76 mm): Footprint C37
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(162.15 mm, 125.14 mm): PCB text 'MISC' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(126.31 mm, 112.45 mm): Segment of C1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(126.32 mm, 111.0 mm): Segment of C1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(133.06 mm, 109.76 mm): Segment of C1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(133.06 mm, 113.72 mm): Segment of C1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(163.09 mm, 116.723641 mm): Segment of R18 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(163.85 mm, 116.723641 mm): Segment of R18 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(142.59 mm, 120.41 mm): Segment of U13 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(153.27 mm, 128.956359 mm): Segment of R5 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(154.03 mm, 128.956359 mm): Segment of R5 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(167.68 mm, 47.9225 mm): Segment of RF1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(170.28 mm, 48.0625 mm): Segment of RF1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(143.01 mm, 133.39 mm): Segment of USB1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(143.01 mm, 136.97 mm): Segment of USB1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(152.08 mm, 133.39 mm): Segment of USB1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(152.08 mm, 136.82 mm): Segment of USB1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(133.797836 mm, 76.45 mm): Segment of C39 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(133.797836 mm, 77.17 mm): Segment of C39 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(141.233641 mm, 103.16 mm): Segment of R12 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(141.233641 mm, 103.92 mm): Segment of R12 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(156.19 mm, 118.783641 mm): Segment of R19 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(156.95 mm, 118.783641 mm): Segment of R19 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(151.52 mm, 84.487836 mm): Segment of C44 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(152.24 mm, 84.487836 mm): Segment of C44 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(163.842164 mm, 118.93 mm): Segment of C26 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(163.842164 mm, 119.65 mm): Segment of C26 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.916359 mm, 105.98 mm): Segment of R11 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.916359 mm, 106.74 mm): Segment of R11 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(126.407836 mm, 103.04 mm): Segment of C22 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(126.407836 mm, 103.76 mm): Segment of C22 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(131.5 mm, 118.986141 mm): Segment of R1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.26 mm, 118.986141 mm): Segment of R1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.08 mm, 94.14 mm): Segment of R8 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.08 mm, 102.6 mm): Segment of R8 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(151.366359 mm, 124.9525 mm): Segment of R60 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(151.366359 mm, 125.7125 mm): Segment of R60 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(157.33 mm, 117.11 mm): Segment of U17 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(162.39 mm, 120.15 mm): Segment of U17 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(148.72 mm, 106.946359 mm): Segment of R6 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(149.48 mm, 106.946359 mm): Segment of R6 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(141.237836 mm, 105.86 mm): Segment of C25 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(141.237836 mm, 106.58 mm): Segment of C25 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.926359 mm, 104.16 mm): Segment of R13 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.926359 mm, 104.92 mm): Segment of R13 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(163.839664 mm, 117.88 mm): Segment of C12 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(163.839664 mm, 118.6 mm): Segment of C12 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.97 mm, 128.956359 mm): Segment of R4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(141.73 mm, 128.956359 mm): Segment of R4 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(157.835 mm, 76.64 mm): Segment of Card1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(162.235 mm, 76.4 mm): Segment of Card1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(163.105 mm, 88.08 mm): Segment of Card1 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(134.107836 mm, 120.34 mm): Segment of C18 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(134.107836 mm, 121.06 mm): Segment of C18 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(146.212164 mm, 111.51 mm): Segment of C19 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(146.212164 mm, 112.23 mm): Segment of C19 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(130.91 mm, 52.52 mm): Segment of U15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(131.83 mm, 51.89 mm): Segment of U15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(131.83 mm, 51.89 mm): Segment of U15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.01 mm, 52.46 mm): Segment of U15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.01 mm, 52.46 mm): Segment of U15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.01 mm, 53.0 mm): Segment of U15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.23 mm, 52.77 mm): Circle of U15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(147.245 mm, 71.64 mm): Segment of Q15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(148.645 mm, 71.64 mm): Segment of Q15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(133.2 mm, 103.696359 mm): Segment of R9 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(133.96 mm, 103.696359 mm): Segment of R9 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(139.69 mm, 114.603641 mm): Segment of R2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.45 mm, 114.603641 mm): Segment of R2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(144.6 mm, 89.12 mm): Segment of C7 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(144.6 mm, 93.08 mm): Segment of C7 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(151.34 mm, 91.84 mm): Segment of C7 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(151.35 mm, 90.39 mm): Segment of C7 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(155.147836 mm, 100.53 mm): Segment of C15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(155.147836 mm, 101.25 mm): Segment of C15 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(142.207836 mm, 115.06 mm): Segment of C17 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(142.207836 mm, 115.78 mm): Segment of C17 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.946359 mm, 106.84 mm): Segment of R7 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(140.946359 mm, 107.6 mm): Segment of R7 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(149.726359 mm, 113.13 mm): Segment of R3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(149.726359 mm, 113.89 mm): Segment of R3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(141.73 mm, 72.34 mm): Circle of U3 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(137.7 mm, 109.386359 mm): Segment of R10 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(138.46 mm, 109.386359 mm): Segment of R10 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(152.52 mm, 84.487836 mm): Segment of C45 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(153.24 mm, 84.487836 mm): Segment of C45 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(133.187836 mm, 104.98 mm): Segment of C24 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(133.187836 mm, 105.7 mm): Segment of C24 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(137.342164 mm, 76.45 mm): Segment of C38 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(137.342164 mm, 77.17 mm): Segment of C38 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.1 mm, 78.782164 mm): Segment of C5 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(132.82 mm, 78.782164 mm): Segment of C5 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(151.65 mm, 123.693641 mm): Segment of R59 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(152.41 mm, 123.693641 mm): Segment of R59 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(146.992164 mm, 104.6675 mm): Segment of C20 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(146.992164 mm, 105.3875 mm): Segment of C20 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(167.64 mm, 112.24 mm): Segment of U2 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(153.197836 mm, 126.4 mm): Segment of C37 on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    ; warning
+    @(153.197836 mm, 127.12 mm): Segment of C37 on F.Silkscreen
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(156.81 mm, 95.8 mm): Pad 1 [Net-(U12-Pad1)] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(156.81 mm, 95.8 mm): Pad 1 [Net-(U12-Pad1)] of U7 on L1
+    @(157.46 mm, 96.45 mm): Pad 16 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(156.31 mm, 95.8 mm): Pad 2 [Net-(U12-Pad1)] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(155.81 mm, 95.8 mm): Pad 3 [Net-(U12-Pad1)] of U7 on L1
+    @(155.31 mm, 95.8 mm): Pad 4 [unconnected-(U7-PG-Pad4)] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(155.81 mm, 95.8 mm): Pad 3 [Net-(U12-Pad1)] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(155.31 mm, 95.8 mm): Pad 4 [unconnected-(U7-PG-Pad4)] of U7 on L1
+    @(154.66 mm, 96.45 mm): Pad 5 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(155.31 mm, 95.8 mm): Pad 4 [unconnected-(U7-PG-Pad4)] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(154.66 mm, 97.95 mm): Pad 8 [GND] of U7 on L1
+    @(155.31 mm, 98.6 mm): Pad 9 [Net-(U7-SS/TR)] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(155.31 mm, 98.6 mm): Pad 9 [Net-(U7-SS/TR)] of U7 on L1
+    @(155.81 mm, 98.6 mm): Pad 10 [V_MAIN] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(155.31 mm, 98.6 mm): Pad 9 [Net-(U7-SS/TR)] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(155.81 mm, 98.6 mm): Pad 10 [V_MAIN] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(156.31 mm, 98.6 mm): Pad 11 [V_MAIN] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(156.81 mm, 98.6 mm): Pad 12 [V_MAIN] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(156.81 mm, 98.6 mm): Pad 12 [V_MAIN] of U7 on L1
+    @(157.46 mm, 97.95 mm): Pad 13 [/Project Architecture/Power Management/PWR_EN] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(157.46 mm, 97.95 mm): Pad 13 [/Project Architecture/Power Management/PWR_EN] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(157.46 mm, 97.95 mm): Pad 13 [/Project Architecture/Power Management/PWR_EN] of U7 on L1
+    @(157.46 mm, 97.45 mm): Pad 14 [3V3_MCU] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(157.46 mm, 97.45 mm): Pad 14 [3V3_MCU] of U7 on L1
+    @(156.06 mm, 97.2 mm): Pad 17 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(157.46 mm, 97.45 mm): Pad 14 [3V3_MCU] of U7 on L1
+    @(157.46 mm, 96.95 mm): Pad 15 [GND] of U7 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.62 mm, 130.7 mm): PTH pad [<no net>] of USB1
+    @(144.31 mm, 129.62 mm): Pad 1 [GND] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.62 mm, 130.7 mm): PTH pad [<no net>] of USB1
+    @(145.11 mm, 129.62 mm): Pad 2 [VBUS] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.4 mm, 130.7 mm): PTH pad [<no net>] of USB1
+    @(149.91 mm, 129.62 mm): Pad 11 [VBUS] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.4 mm, 130.7 mm): PTH pad [<no net>] of USB1
+    @(150.71 mm, 129.62 mm): Pad 12 [GND] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.31 mm, 129.62 mm): Pad 1 [GND] of USB1 on L1
+    @(145.11 mm, 129.62 mm): Pad 2 [VBUS] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.11 mm, 129.62 mm): Pad 2 [VBUS] of USB1 on L1
+    @(145.76 mm, 129.62 mm): Pad 3 [unconnected-(USB1-SBU2-Pad3)] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.76 mm, 129.62 mm): Pad 3 [unconnected-(USB1-SBU2-Pad3)] of USB1 on L1
+    @(146.26 mm, 129.62 mm): Pad 4 [/Project Architecture/External Connectors/CC1] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.26 mm, 129.62 mm): Pad 4 [/Project Architecture/External Connectors/CC1] of USB1 on L1
+    @(146.76 mm, 129.62 mm): Pad 5 [/Project Architecture/External Connectors/USBCD-] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.76 mm, 129.62 mm): Pad 5 [/Project Architecture/External Connectors/USBCD-] of USB1 on L1
+    @(147.26 mm, 129.62 mm): Pad 6 [/Project Architecture/External Connectors/USBCD+] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.26 mm, 129.62 mm): Pad 6 [/Project Architecture/External Connectors/USBCD+] of USB1 on L1
+    @(147.76 mm, 129.62 mm): Pad 7 [/Project Architecture/External Connectors/USBCD-] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.76 mm, 129.62 mm): Pad 7 [/Project Architecture/External Connectors/USBCD-] of USB1 on L1
+    @(148.26 mm, 129.62 mm): Pad 8 [/Project Architecture/External Connectors/USBCD+] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.26 mm, 129.62 mm): Pad 8 [/Project Architecture/External Connectors/USBCD+] of USB1 on L1
+    @(148.76 mm, 129.62 mm): Pad 9 [unconnected-(USB1-SBU1-Pad9)] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.76 mm, 129.62 mm): Pad 9 [unconnected-(USB1-SBU1-Pad9)] of USB1 on L1
+    @(149.26 mm, 129.62 mm): Pad 10 [/Project Architecture/External Connectors/CC2] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.26 mm, 129.62 mm): Pad 10 [/Project Architecture/External Connectors/CC2] of USB1 on L1
+    @(149.91 mm, 129.62 mm): Pad 11 [VBUS] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.91 mm, 129.62 mm): Pad 11 [VBUS] of USB1 on L1
+    @(150.71 mm, 129.62 mm): Pad 12 [GND] of USB1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(137.9 mm, 114.95 mm): Pad 3 [VBUS] of Q2 on L1
+    @(138.55 mm, 114.95 mm): Pad 4 [Net-(Q2-G)] of Q2 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.39 mm, 111.42 mm): Pad 3 [V_CHRG] of Q3 on L1
+    @(150.39 mm, 112.07 mm): Pad 4 [Net-(Q3-G)] of Q3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(163.105 mm, 80.59 mm): Pad 3 [/Project Architecture/LoRa/SPI_MOSI/CMD] of Card1 on L1
+    @(163.105 mm, 81.34 mm): Pad 4 [3V3_MCU] of Card1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(163.105 mm, 81.34 mm): Pad 4 [3V3_MCU] of Card1 on L1
+    @(163.105 mm, 82.04 mm): Pad 9 [unconnected-(Card1-SWITCH-Pad9)] of Card1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(163.105 mm, 82.79 mm): Pad 5 [/Project Architecture/LoRa/SPI_CLK] of Card1 on L1
+    @(163.105 mm, 82.04 mm): Pad 9 [unconnected-(Card1-SWITCH-Pad9)] of Card1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(129.72 mm, 119.3225 mm): Pad 3 [VSUN] of Q1 on L1
+    @(130.37 mm, 119.3225 mm): Pad 4 [Net-(Q1-G)] of Q1 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(131.89 mm, 52.76 mm): Pad 1 [/Project Architecture/MCU/ESP_EN] of U15 on L1
+    @(131.46 mm, 52.44 mm): Pad 5 [GND] of U15 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(131.89 mm, 52.76 mm): Pad 1 [/Project Architecture/MCU/ESP_EN] of U15 on L1
+    @(119.15 mm, 42.69 mm): Zone [GND] on L1, priority 0
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(131.89 mm, 52.12 mm): Pad 2 [Net-(U15-~{MR})] of U15 on L1
+    @(131.46 mm, 52.44 mm): Pad 5 [GND] of U15 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(131.89 mm, 52.12 mm): Pad 2 [Net-(U15-~{MR})] of U15 on L1
+    @(119.15 mm, 42.69 mm): Zone [GND] on L1, priority 0
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(131.03 mm, 52.76 mm): Pad 4 [3V3_MCU] of U15 on L1
+    @(131.46 mm, 52.44 mm): Pad 5 [GND] of U15 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(131.03 mm, 52.76 mm): Pad 4 [3V3_MCU] of U15 on L1
+    @(119.15 mm, 42.69 mm): Zone [GND] on L1, priority 0
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.845 mm, 73.3 mm): Pad 1 [/Project Architecture/MCU/CH343_DTR] of Q15 on L1
+    @(148.845 mm, 72.65 mm): Pad 2 [Net-(Q15-B-Pad2)] of Q15 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.845 mm, 72.65 mm): Pad 2 [Net-(Q15-B-Pad2)] of Q15 on L1
+    @(148.845 mm, 72.0 mm): Pad 3 [/Project Architecture/MCU/ESP_EN] of Q15 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.045 mm, 72.0 mm): Pad 4 [/Project Architecture/MCU/CH343_RTS] of Q15 on L1
+    @(147.045 mm, 72.65 mm): Pad 5 [Net-(Q15-B-Pad5)] of Q15 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.045 mm, 72.65 mm): Pad 5 [Net-(Q15-B-Pad5)] of Q15 on L1
+    @(147.045 mm, 73.3 mm): Pad 6 [/Project Architecture/MCU/ESP_BOOT] of Q15 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.9 mm, 81.6 mm): Pad 1 [unconnected-(U14-~{OVCUR}-Pad1)] of U14 on L1
+    @(149.4 mm, 81.6 mm): Pad 2 [unconnected-(U14-NC.-Pad2)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.9 mm, 81.6 mm): Pad 1 [unconnected-(U14-~{OVCUR}-Pad1)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.4 mm, 81.6 mm): Pad 2 [unconnected-(U14-NC.-Pad2)] of U14 on L1
+    @(148.9 mm, 81.6 mm): Pad 3 [/Project Architecture/HUB/XTAL_XO] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.4 mm, 81.6 mm): Pad 2 [unconnected-(U14-NC.-Pad2)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.9 mm, 81.6 mm): Pad 3 [/Project Architecture/HUB/XTAL_XO] of U14 on L1
+    @(148.4 mm, 81.6 mm): Pad 4 [/Project Architecture/HUB/XTAL_XI] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.9 mm, 81.6 mm): Pad 3 [/Project Architecture/HUB/XTAL_XO] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.4 mm, 81.6 mm): Pad 4 [/Project Architecture/HUB/XTAL_XI] of U14 on L1
+    @(147.9 mm, 81.6 mm): Pad 5 [unconnected-(U14-DM4-Pad5)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.4 mm, 81.6 mm): Pad 4 [/Project Architecture/HUB/XTAL_XI] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.9 mm, 81.6 mm): Pad 5 [unconnected-(U14-DM4-Pad5)] of U14 on L1
+    @(147.4 mm, 81.6 mm): Pad 6 [unconnected-(U14-DP4-Pad6)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.9 mm, 81.6 mm): Pad 5 [unconnected-(U14-DM4-Pad5)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.4 mm, 81.6 mm): Pad 6 [unconnected-(U14-DP4-Pad6)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 82.35 mm): Pad 7 [/Project Architecture/HUB/CH343_USBD+] of U14 on L1
+    @(146.65 mm, 82.85 mm): Pad 8 [/Project Architecture/HUB/CH343_USBD-] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 82.35 mm): Pad 7 [/Project Architecture/HUB/CH343_USBD+] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 82.85 mm): Pad 8 [/Project Architecture/HUB/CH343_USBD-] of U14 on L1
+    @(146.65 mm, 83.35 mm): Pad 9 [/Project Architecture/HUB/ESP_USBD-] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 82.85 mm): Pad 8 [/Project Architecture/HUB/CH343_USBD-] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 83.35 mm): Pad 9 [/Project Architecture/HUB/ESP_USBD-] of U14 on L1
+    @(146.65 mm, 83.85 mm): Pad 10 [/Project Architecture/HUB/ESP_USBD+] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 83.35 mm): Pad 9 [/Project Architecture/HUB/ESP_USBD-] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 83.85 mm): Pad 10 [/Project Architecture/HUB/ESP_USBD+] of U14 on L1
+    @(146.65 mm, 84.35 mm): Pad 11 [/Project Architecture/External Connectors/LTE_USBD-] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 83.85 mm): Pad 10 [/Project Architecture/HUB/ESP_USBD+] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 84.35 mm): Pad 11 [/Project Architecture/External Connectors/LTE_USBD-] of U14 on L1
+    @(146.65 mm, 84.85 mm): Pad 12 [/Project Architecture/External Connectors/LTE_USBD+] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 84.35 mm): Pad 11 [/Project Architecture/External Connectors/LTE_USBD-] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(146.65 mm, 84.85 mm): Pad 12 [/Project Architecture/External Connectors/LTE_USBD+] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.4 mm, 85.6 mm): Pad 13 [unconnected-(U14-LED3/SCL-Pad13)] of U14 on L1
+    @(147.9 mm, 85.6 mm): Pad 14 [/Project Architecture/External Connectors/USBCD-] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.4 mm, 85.6 mm): Pad 13 [unconnected-(U14-LED3/SCL-Pad13)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.9 mm, 85.6 mm): Pad 14 [/Project Architecture/External Connectors/USBCD-] of U14 on L1
+    @(148.4 mm, 85.6 mm): Pad 15 [/Project Architecture/External Connectors/USBCD+] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(147.9 mm, 85.6 mm): Pad 14 [/Project Architecture/External Connectors/USBCD-] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.4 mm, 85.6 mm): Pad 15 [/Project Architecture/External Connectors/USBCD+] of U14 on L1
+    @(148.9 mm, 85.6 mm): Pad 16 [unconnected-(U14-~{RESET}/CDP-Pad16)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.4 mm, 85.6 mm): Pad 15 [/Project Architecture/External Connectors/USBCD+] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.9 mm, 85.6 mm): Pad 16 [unconnected-(U14-~{RESET}/CDP-Pad16)] of U14 on L1
+    @(149.4 mm, 85.6 mm): Pad 17 [unconnected-(U14-NC-Pad17)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(148.9 mm, 85.6 mm): Pad 16 [unconnected-(U14-~{RESET}/CDP-Pad16)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.4 mm, 85.6 mm): Pad 17 [unconnected-(U14-NC-Pad17)] of U14 on L1
+    @(149.9 mm, 85.6 mm): Pad 18 [unconnected-(U14-PSELF-Pad18)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.4 mm, 85.6 mm): Pad 17 [unconnected-(U14-NC-Pad17)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(149.9 mm, 85.6 mm): Pad 18 [unconnected-(U14-PSELF-Pad18)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 84.85 mm): Pad 19 [3V3_MCU] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 84.35 mm): Pad 20 [3V3_MCU] of U14 on L1
+    @(150.65 mm, 83.85 mm): Pad 21 [unconnected-(U14-LED4/SDA-Pad21)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 84.35 mm): Pad 20 [3V3_MCU] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 83.85 mm): Pad 21 [unconnected-(U14-LED4/SDA-Pad21)] of U14 on L1
+    @(150.65 mm, 83.35 mm): Pad 22 [unconnected-(U14-LED1-Pad22)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 83.85 mm): Pad 21 [unconnected-(U14-LED4/SDA-Pad21)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 83.35 mm): Pad 22 [unconnected-(U14-LED1-Pad22)] of U14 on L1
+    @(150.65 mm, 82.85 mm): Pad 23 [unconnected-(U14-LED2-Pad23)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 83.35 mm): Pad 22 [unconnected-(U14-LED1-Pad22)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 82.85 mm): Pad 23 [unconnected-(U14-LED2-Pad23)] of U14 on L1
+    @(150.65 mm, 82.35 mm): Pad 24 [unconnected-(U14-~{PWREN}-Pad24)] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 82.85 mm): Pad 23 [unconnected-(U14-LED2-Pad23)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.65 mm, 82.35 mm): Pad 24 [unconnected-(U14-~{PWREN}-Pad24)] of U14 on L1
+    @(148.64 mm, 83.6 mm): Pad 25 [GND] of U14 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.33 mm, 72.69 mm): Pad 1 [3V3_MCU] of U3 on L1
+    @(142.33 mm, 73.19 mm): Pad 2 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.33 mm, 72.69 mm): Pad 1 [3V3_MCU] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.33 mm, 72.69 mm): Pad 1 [3V3_MCU] of U3 on L1
+    @(143.03 mm, 71.99 mm): Pad 16 [unconnected-(U3-RI-Pad16)] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.33 mm, 73.19 mm): Pad 2 [GND] of U3 on L1
+    @(142.33 mm, 73.69 mm): Pad 3 [Net-(U3-V3)] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.33 mm, 73.69 mm): Pad 3 [Net-(U3-V3)] of U3 on L1
+    @(142.33 mm, 74.19 mm): Pad 4 [/Project Architecture/MCU/ESP_RXD0] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.33 mm, 73.69 mm): Pad 3 [Net-(U3-V3)] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.33 mm, 74.19 mm): Pad 4 [/Project Architecture/MCU/ESP_RXD0] of U3 on L1
+    @(143.03 mm, 74.89 mm): Pad 5 [/Project Architecture/MCU/ESP_TXD0] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(142.33 mm, 74.19 mm): Pad 4 [/Project Architecture/MCU/ESP_RXD0] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.03 mm, 74.89 mm): Pad 5 [/Project Architecture/MCU/ESP_TXD0] of U3 on L1
+    @(143.53 mm, 74.89 mm): Pad 6 [Net-(U3-V3)] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.03 mm, 74.89 mm): Pad 5 [/Project Architecture/MCU/ESP_TXD0] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.53 mm, 74.89 mm): Pad 6 [Net-(U3-V3)] of U3 on L1
+    @(144.03 mm, 74.89 mm): Pad 7 [/Project Architecture/HUB/CH343_USBD+] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.53 mm, 74.89 mm): Pad 6 [Net-(U3-V3)] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.03 mm, 74.89 mm): Pad 7 [/Project Architecture/HUB/CH343_USBD+] of U3 on L1
+    @(144.53 mm, 74.89 mm): Pad 8 [/Project Architecture/HUB/CH343_USBD-] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.03 mm, 74.89 mm): Pad 7 [/Project Architecture/HUB/CH343_USBD+] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.53 mm, 74.89 mm): Pad 8 [/Project Architecture/HUB/CH343_USBD-] of U3 on L1
+    @(145.23 mm, 74.19 mm): Pad 9 [3V3_MCU] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.53 mm, 74.89 mm): Pad 8 [/Project Architecture/HUB/CH343_USBD-] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.23 mm, 74.19 mm): Pad 9 [3V3_MCU] of U3 on L1
+    @(145.23 mm, 73.69 mm): Pad 10 [unconnected-(U3-~{ACT}-Pad10)] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.23 mm, 74.19 mm): Pad 9 [3V3_MCU] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.23 mm, 73.69 mm): Pad 10 [unconnected-(U3-~{ACT}-Pad10)] of U3 on L1
+    @(145.23 mm, 73.19 mm): Pad 11 [unconnected-(U3-DCD-Pad11)] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.23 mm, 73.69 mm): Pad 10 [unconnected-(U3-~{ACT}-Pad10)] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.23 mm, 73.19 mm): Pad 11 [unconnected-(U3-DCD-Pad11)] of U3 on L1
+    @(145.23 mm, 72.69 mm): Pad 12 [/Project Architecture/MCU/CH343_DTR] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.23 mm, 73.19 mm): Pad 11 [unconnected-(U3-DCD-Pad11)] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.23 mm, 72.69 mm): Pad 12 [/Project Architecture/MCU/CH343_DTR] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(145.23 mm, 72.69 mm): Pad 12 [/Project Architecture/MCU/CH343_DTR] of U3 on L1
+    @(144.53 mm, 71.99 mm): Pad 13 [/Project Architecture/MCU/CH343_RTS] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.53 mm, 71.99 mm): Pad 13 [/Project Architecture/MCU/CH343_RTS] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.53 mm, 71.99 mm): Pad 13 [/Project Architecture/MCU/CH343_RTS] of U3 on L1
+    @(144.03 mm, 71.99 mm): Pad 14 [unconnected-(U3-DSR-Pad14)] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.03 mm, 71.99 mm): Pad 14 [unconnected-(U3-DSR-Pad14)] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(144.03 mm, 71.99 mm): Pad 14 [unconnected-(U3-DSR-Pad14)] of U3 on L1
+    @(143.53 mm, 71.99 mm): Pad 15 [unconnected-(U3-CTS-Pad15)] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.53 mm, 71.99 mm): Pad 15 [unconnected-(U3-CTS-Pad15)] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.53 mm, 71.99 mm): Pad 15 [unconnected-(U3-CTS-Pad15)] of U3 on L1
+    @(143.03 mm, 71.99 mm): Pad 16 [unconnected-(U3-RI-Pad16)] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(143.03 mm, 71.99 mm): Pad 16 [unconnected-(U3-RI-Pad16)] of U3 on L1
+    @(143.78 mm, 73.44 mm): Pad 17 [GND] of U3 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(150.47 mm, 107.12 mm): Pad 3 [V_BAT] of Q4 on L1
+    @(150.47 mm, 107.77 mm): Pad 4 [Net-(Q4-G)] of Q4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(133.85 mm, 75.51 mm): Pad 1 [GND] of U4 on L1
+    @(134.35 mm, 75.51 mm): Pad 2 [V_BAT] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(134.35 mm, 75.51 mm): Pad 2 [V_BAT] of U4 on L1
+    @(134.85 mm, 75.51 mm): Pad 3 [3V3_FG] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(134.35 mm, 75.51 mm): Pad 2 [V_BAT] of U4 on L1
+    @(134.59 mm, 74.56 mm): Pad 9 [GND] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(134.85 mm, 75.51 mm): Pad 3 [3V3_FG] of U4 on L1
+    @(135.35 mm, 75.51 mm): Pad 4 [GND] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(134.85 mm, 75.51 mm): Pad 3 [3V3_FG] of U4 on L1
+    @(134.59 mm, 74.56 mm): Pad 9 [GND] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(135.35 mm, 73.61 mm): Pad 5 [unconnected-(U4-~{ALRT}-Pad5)] of U4 on L1
+    @(134.59 mm, 74.56 mm): Pad 9 [GND] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(135.35 mm, 73.61 mm): Pad 5 [unconnected-(U4-~{ALRT}-Pad5)] of U4 on L1
+    @(134.85 mm, 73.61 mm): Pad 6 [unconnected-(U4-QSTRT-Pad6)] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(134.85 mm, 73.61 mm): Pad 6 [unconnected-(U4-QSTRT-Pad6)] of U4 on L1
+    @(134.59 mm, 74.56 mm): Pad 9 [GND] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(134.85 mm, 73.61 mm): Pad 6 [unconnected-(U4-QSTRT-Pad6)] of U4 on L1
+    @(134.35 mm, 73.61 mm): Pad 7 [/Project Architecture/External Connectors/I2C_SCL] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(134.35 mm, 73.61 mm): Pad 7 [/Project Architecture/External Connectors/I2C_SCL] of U4 on L1
+    @(134.59 mm, 74.56 mm): Pad 9 [GND] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(134.35 mm, 73.61 mm): Pad 7 [/Project Architecture/External Connectors/I2C_SCL] of U4 on L1
+    @(133.85 mm, 73.61 mm): Pad 8 [/Project Architecture/External Connectors/I2C_SDA] of U4 on L1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(133.85 mm, 73.61 mm): Pad 8 [/Project Architecture/External Connectors/I2C_SDA] of U4 on L1
+    @(134.59 mm, 74.56 mm): Pad 9 [GND] of U4 on L1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **
