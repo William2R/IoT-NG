@@ -1,0 +1,283 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7+1*%
+%TF.CreationDate,Date%
+%TF.ProjectId,IndustrialSense,496e6475-7374-4726-9961-6c53656e7365,+ (Unreleased)*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Copper,L4,Bot*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 Aperture macros list*
+%AMRoundRect*
+0 Rectangle with rounded corners*
+0 $1 Rounding radius*
+0 $2 $3 $4 $5 $6 $7 $8 $9 X,Y pos of 4 corners*
+0 Add a 4 corners polygon primitive as box body*
+4,1,4,$2,$3,$4,$5,$6,$7,$8,$9,$2,$3,0*
+0 Add four circle primitives for the rounded corners*
+1,1,$1+$1,$2,$3*
+1,1,$1+$1,$4,$5*
+1,1,$1+$1,$6,$7*
+1,1,$1+$1,$8,$9*
+0 Add four rect primitives between the rounded corners*
+20,1,$1+$1,$2,$3,$4,$5,0*
+20,1,$1+$1,$4,$5,$6,$7,0*
+20,1,$1+$1,$6,$7,$8,$9,0*
+20,1,$1+$1,$8,$9,$2,$3,0*%
+G04 Aperture macros list end*
+%TA.AperFunction,ComponentPad*%
+%ADD10C,1.800000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD11C,2.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD12C,0.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD13O,1.100000X2.000000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD14O,1.200000X1.800000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD15R,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD16O,1.700000X1.700000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD17R,1.200000X1.200000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD18C,1.200000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD19RoundRect,0.250000X0.265000X0.615000X-0.265000X0.615000X-0.265000X-0.615000X0.265000X-0.615000X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD20O,1.030000X1.730000*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD21RoundRect,0.250000X0.615000X-0.265000X0.615000X0.265000X-0.615000X0.265000X-0.615000X-0.265000X0*%
+%TD*%
+%TA.AperFunction,ComponentPad*%
+%ADD22O,1.730000X1.030000*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD23R,2.900000X0.800000*%
+%TD*%
+%TA.AperFunction,SMDPad,CuDef*%
+%ADD24R,3.200000X0.800000*%
+%TD*%
+%TA.AperFunction,Conductor*%
+%ADD25C,0.350000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+%TO.P,DC1,*%
+%TO.N,*%
+X132080000Y-131990000D03*
+D11*
+X132080000Y-127490000D03*
+%TD*%
+D12*
+%TO.P,USB1,*%
+%TO.N,*%
+X144620000Y-130700000D03*
+X150400000Y-130700000D03*
+D13*
+%TO.P,USB1,13,SHELL*%
+%TO.N,GND*%
+X143190000Y-130170000D03*
+D14*
+X143190000Y-134380000D03*
+D13*
+%TO.P,USB1,14,SHELL*%
+X151830000Y-130170000D03*
+D14*
+X151830000Y-134380000D03*
+%TD*%
+D15*
+%TO.P,J6,1,Pin_1*%
+%TO.N,/Project Architecture/External Connectors/LTE_TXD2*%
+X126360000Y-60120000D03*
+D16*
+%TO.P,J6,2,Pin_2*%
+%TO.N,/Project Architecture/External Connectors/LTE_RXD2*%
+X128900000Y-60120000D03*
+%TO.P,J6,3,Pin_3*%
+%TO.N,GND*%
+X126360000Y-62660000D03*
+%TO.P,J6,4,Pin_4*%
+%TO.N,/Project Architecture/External Connectors/LTE_RST*%
+X128900000Y-62660000D03*
+%TO.P,J6,5,Pin_5*%
+%TO.N,GND*%
+X126360000Y-65200000D03*
+%TO.P,J6,6,Pin_6*%
+%TO.N,/Project Architecture/External Connectors/LTE_ON*%
+X128900000Y-65200000D03*
+%TO.P,J6,7,Pin_7*%
+%TO.N,V_MAIN*%
+X126360000Y-67740000D03*
+%TO.P,J6,8,Pin_8*%
+%TO.N,/Project Architecture/External Connectors/LTE_USBD-*%
+X128900000Y-67740000D03*
+%TO.P,J6,9,Pin_9*%
+%TO.N,V_MAIN*%
+X126360000Y-70280000D03*
+%TO.P,J6,10,Pin_10*%
+%TO.N,/Project Architecture/External Connectors/LTE_USBD+*%
+X128900000Y-70280000D03*
+%TD*%
+D17*
+%TO.P,CN4,1,1*%
+%TO.N,GND*%
+X168550000Y-109250000D03*
+D18*
+%TO.P,CN4,2,2*%
+%TO.N,/Project Architecture/External Connectors/I2C_SDA*%
+X168550000Y-107750000D03*
+%TO.P,CN4,3,3*%
+%TO.N,/Project Architecture/External Connectors/I2C_SCL*%
+X168550000Y-106250000D03*
+%TO.P,CN4,4,4*%
+%TO.N,3V3_MCU*%
+X168550000Y-104750000D03*
+%TD*%
+D19*
+%TO.P,J1,1,Pin_1*%
+%TO.N,GND*%
+X151300000Y-119400000D03*
+D20*
+%TO.P,J1,2,Pin_2*%
+%TO.N,/Project Architecture/External Connectors/CC2*%
+X149800000Y-119400000D03*
+%TO.P,J1,3,Pin_3*%
+%TO.N,/Project Architecture/External Connectors/USBCD+*%
+X148300000Y-119400000D03*
+%TO.P,J1,4,Pin_4*%
+%TO.N,/Project Architecture/External Connectors/USBCD-*%
+X146800000Y-119400000D03*
+%TO.P,J1,5,Pin_5*%
+%TO.N,/Project Architecture/External Connectors/CC1*%
+X145300000Y-119400000D03*
+%TO.P,J1,6,Pin_6*%
+%TO.N,VBUS*%
+X143800000Y-119400000D03*
+%TD*%
+D21*
+%TO.P,J3,1,Pin_1*%
+%TO.N,/Project Architecture/External Connectors/GPIO42R*%
+X168650000Y-120950000D03*
+D22*
+%TO.P,J3,2,Pin_2*%
+%TO.N,/Project Architecture/External Connectors/GPIO41G*%
+X168650000Y-119450000D03*
+%TO.P,J3,3,Pin_3*%
+%TO.N,/Project Architecture/External Connectors/GPIO40B*%
+X168650000Y-117950000D03*
+%TO.P,J3,4,Pin_4*%
+%TO.N,GND*%
+X168650000Y-116450000D03*
+%TO.P,J3,5,Pin_5*%
+%TO.N,/Project Architecture/External Connectors/PWR_KEY*%
+X168650000Y-114950000D03*
+%TO.P,J3,6,Pin_6*%
+%TO.N,V_BAT*%
+X168650000Y-113450000D03*
+%TD*%
+D15*
+%TO.P,J5,1,Pin_1*%
+%TO.N,/Project Architecture/External Connectors/GPIO41G*%
+X167060000Y-125220000D03*
+D16*
+%TO.P,J5,2,Pin_2*%
+%TO.N,/Project Architecture/External Connectors/GPIO42R*%
+X169600000Y-125220000D03*
+%TO.P,J5,3,Pin_3*%
+%TO.N,/Project Architecture/External Connectors/PWR_KEY*%
+X167060000Y-127760000D03*
+%TO.P,J5,4,Pin_4*%
+%TO.N,/Project Architecture/External Connectors/GPIO40B*%
+X169600000Y-127760000D03*
+%TO.P,J5,5,Pin_5*%
+%TO.N,/Project Architecture/External Connectors/GPIO15*%
+X167060000Y-130300000D03*
+%TO.P,J5,6,Pin_6*%
+%TO.N,/Project Architecture/External Connectors/GPIO16*%
+X169600000Y-130300000D03*
+%TO.P,J5,7,Pin_7*%
+%TO.N,3V3_MCU*%
+X167060000Y-132840000D03*
+%TO.P,J5,8,Pin_8*%
+%TO.N,GND*%
+X169600000Y-132840000D03*
+%TO.P,J5,9,Pin_9*%
+%TO.N,V_MAIN*%
+X167060000Y-135380000D03*
+%TO.P,J5,10,Pin_10*%
+%TO.N,GND*%
+X169600000Y-135380000D03*
+%TD*%
+D17*
+%TO.P,CN2,1,1*%
+%TO.N,GND*%
+X157540000Y-134780000D03*
+D18*
+%TO.P,CN2,2,2*%
+%TO.N,/Project Architecture/External Connectors/RS485_A*%
+X159040000Y-134780000D03*
+%TO.P,CN2,3,3*%
+%TO.N,/Project Architecture/External Connectors/RS485_B*%
+X160540000Y-134780000D03*
+%TO.P,CN2,4,4*%
+%TO.N,V_MAIN*%
+X162040000Y-134780000D03*
+%TD*%
+D23*
+%TO.P,REF\u002A\u002A,1*%
+%TO.N,N/C*%
+X158905000Y-77940000D03*
+%TO.P,REF\u002A\u002A,2*%
+X158905000Y-79040000D03*
+%TO.P,REF\u002A\u002A,3*%
+X158905000Y-80140000D03*
+D24*
+%TO.P,REF\u002A\u002A,4*%
+X158755000Y-81240000D03*
+D23*
+%TO.P,REF\u002A\u002A,5*%
+X158905000Y-82340000D03*
+D24*
+%TO.P,REF\u002A\u002A,6*%
+X158755000Y-83440000D03*
+D23*
+%TO.P,REF\u002A\u002A,7*%
+X158905000Y-84540000D03*
+%TO.P,REF\u002A\u002A,8*%
+X158905000Y-85640000D03*
+%TD*%
+D25*
+%TO.N,VBUS*%
+X138000000Y-117300000D02*
+X137900000Y-117200000D01*
+X137900000Y-117200000D02*
+X137900000Y-115800000D01*
+X140100000Y-119400000D02*
+X138000000Y-117300000D01*
+X142000000Y-116600000D02*
+X142000000Y-116100000D01*
+X143800000Y-119400000D02*
+X140100000Y-119400000D01*
+X143800000Y-118400000D02*
+X142000000Y-116600000D01*
+X143800000Y-119400000D02*
+X143800000Y-118400000D01*
+%TD*%
+M02*
