@@ -1,0 +1,10 @@
+IndustrialSense|IndustrialSense.kicad_sch||IndustrialSense|IndustrialSense
+Project Architecture|Project Architecture.kicad_sch||Project Architecture|IndustrialSense-Project Architecture
+EC|EC.kicad_sch||External Connectors|IndustrialSense-Project Architecture-External Connectors
+HUB|HUB.kicad_sch||HUB|IndustrialSense-Project Architecture-HUB
+LoRa|LoRa.kicad_sch||LoRa|IndustrialSense-Project Architecture-LoRa
+MCU|MCU.kicad_sch||MCU|IndustrialSense-Project Architecture-MCU
+PM|PM.kicad_sch||Power Management|IndustrialSense-Project Architecture-Power Management
+RS485|RS485.kicad_sch||RS485|IndustrialSense-Project Architecture-RS485
+SDCARD|SDCARD.kicad_sch||SD CARD|IndustrialSense-Project Architecture-SD CARD
+Revision History|Revision History.kicad_sch||Revision History|IndustrialSense-Revision History
