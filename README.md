@@ -1,22 +1,22 @@
+<h1 align="center">IndustrialSense</h1>
+
+<p align="center">
+  <img alt="3D Top Angled" src="Images/IndustrialSense-angled_top.png" width="45%">
+  &nbsp; &nbsp; &nbsp; &nbsp;
+  <img alt="3D Bottom Angled" src="Images/IndustrialSense-angled_bottom.png" width="45%">
+</p>
+
+***
+
 ## SPECIFICATIONS
 
-
-
 | Parameter | Value | 
-
 | --- | --- |
-
 | **MCU** | ESP32-S3 |
-
 | **LoRa Module** | Ra-01SH (Semtech SX1262) |
-
 | **External Connectivity** | RS-485 / I2C / UART |
-
 | **Expansion Support** | LTE A7680C (External Module via Headers) |
-
 | **Dimensions** | 46.9 × 90.0 mm |
-
-
 
 ***
 ## DIRECTORY STRUCTURE
