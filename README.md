@@ -1,34 +1,20 @@
-<p align="center" width="100%">
-  <img alt="Logo" width="33%" src="Logos/dummy_logo.svg">
-</p>
-
 <h1 align="center">IndustrialSense</h1>
-
-<p align="center" width="100%">
-  <a href="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml">
-    <img alt="CI Badge" src="https://github.com/nguyen-v/KDT_Hierarchical_KiBot/actions/workflows/ci.yaml/badge.svg?branch=">
-  </a>
-</p>
-
-<p align="center" width="100%">
-    <img src="Images/dummy_image.png">
-</p>
-
-***
-
 <p align="center">
   <img alt="3D Top Angled" src="Images/IndustrialSense-angled_top.png" width="45%">
-&nbsp; &nbsp; &nbsp; &nbsp;
+  &nbsp; &nbsp; &nbsp; &nbsp;
   <img alt="3D Bottom Angled" src="Images/IndustrialSense-angled_bottom.png" width="45%">
 </p>
 
 ***
 
 ## SPECIFICATIONS
-
 | Parameter | Value | 
 | --- | --- |
-| Dimensions | 46.9 × 90.0 mm |
+| **MCU** | ESP32-S3 |
+| **LoRa Module** | Ra-01SH (Semtech SX1262) |
+| **External Connectivity** | RS-485 / I2C / UART |
+| **Expansion Support** | LTE A7680C (External Module via Headers) |
+| **Dimensions** | 46.9 × 90.0 mm |
 
 ***
 
